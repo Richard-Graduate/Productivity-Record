@@ -299,13 +299,13 @@ collections:
     output: true
     permalink: /:collection/:path/
   recipes:
-    output: true
+    output: false
     permalink: /:collection/:path/
   pets:
-    output: true
+    output: false
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 

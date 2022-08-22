@@ -125,9 +125,15 @@ var store = [{
         "url": "/docs/license/",
         "teaser": null
       },{
-        "title": "C++ HEHE",
-        "excerpt":" ","categories": ["Edge Case"],
-        "tags": ["content","css","edge case","lists","markup"],
-        "url": "/edge%20case/template/",
+        "title": "Array",
+        "excerpt":"介紹關於Array的傳值   # _data/navigation.yml foo:   - title: \"Link 1 Title\"     url: /link-1-page-url/    - title: \"Link 2 Title\"     url: http://external-link.com    - title: \"Link 3 Title\"     url: /link-3-page-url/    - title: \"Link 4 Title\"     url: /link-4-page-url/  ","categories": ["C++ Concepts"],
+        "tags": ["C++ Concepts"],
+        "url": "/c++%20concepts/C++Array/",
+        "teaser": null
+      },{
+        "title": "Pointer & Reference",
+        "excerpt":"Pointer introduce Data variable int a = 10; Address variable int *p; p = &amp;a; create a memory space int main() { int *p; *C p=(int*)malloc(S*sizeof(int)); *C++ p=new int[S]; } Reference introduce 另一個別名(alias) int main() { int a=10; int &amp;r=a; int b=30; r=b; cout&lt;&lt; a &lt;&lt; endl &lt;&lt; r &lt;&lt;...","categories": ["C++ Concepts"],
+        "tags": ["C++ Concepts"],
+        "url": "/c++%20concepts/C++Pointer/",
         "teaser": null
       },]
