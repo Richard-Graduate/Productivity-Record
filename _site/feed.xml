@@ -1,4 +1,130 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2022-08-22T22:32:57+08:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Memory Record</title><subtitle>A flexible Jekyll theme for your blog or site with a minimalist aesthetic.</subtitle><author><name>Richard Lin</name></author><entry><title type="html">Pointer &amp;amp; Reference</title><link href="http://0.0.0.0:4000/c++%20concepts/C++Pointer/" rel="alternate" type="text/html" title="Pointer &amp;amp; Reference" /><published>2022-08-22T00:00:00+08:00</published><updated>2022-08-22T00:00:00+08:00</updated><id>http://0.0.0.0:4000/c++%20concepts/C++Pointer</id><content type="html" xml:base="http://0.0.0.0:4000/c++%20concepts/C++Pointer/"><![CDATA[<h2 id="pointer-introduce">Pointer introduce</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2022-08-27T12:58:05+08:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Memory Record</title><subtitle>A flexible Jekyll theme for your blog or site with a minimalist aesthetic.</subtitle><author><name>Richard Lin</name></author><entry><title type="html">Parameter Passing Methods</title><link href="http://0.0.0.0:4000/c++%20concepts/Parameter-Passing-Methods/" rel="alternate" type="text/html" title="Parameter Passing Methods" /><published>2022-08-27T00:00:00+08:00</published><updated>2022-08-27T00:00:00+08:00</updated><id>http://0.0.0.0:4000/c++%20concepts/Parameter%20Passing%20Methods</id><content type="html" xml:base="http://0.0.0.0:4000/c++%20concepts/Parameter-Passing-Methods/"><![CDATA[<h2 id="parameter-passing-methods">Parameter Passing Methods</h2>
+
+<h3 id="call-by-value">Call By Value</h3>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">add</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">,</span><span class="kt">int</span> <span class="n">b</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="kt">int</span> <span class="n">c</span><span class="p">;</span>
+    <span class="n">c</span><span class="o">=</span><span class="n">a</span><span class="o">+</span><span class="n">b</span><span class="p">;</span>
+    <span class="k">return</span> <span class="n">c</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="kt">int</span> <span class="n">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="kt">int</span> <span class="n">num1</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span><span class="n">num2</span><span class="o">=</span><span class="mi">15</span><span class="p">,</span><span class="n">sum</span><span class="p">;</span>
+    <span class="n">sum</span><span class="o">=</span><span class="n">add</span><span class="p">(</span><span class="n">num1</span><span class="o">+</span><span class="n">num2</span><span class="p">);</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>Values are passed here and this type of parameter parsing, if any changes are done to</p>
+
+<p>this formal parameters   {<strong>int add(int a,int b)</strong>},</p>
+
+<p>that will not change actual parameters{<strong>num1+num2</strong>}.</p>
+
+<h3 id="call-by-address">Call By Address</h3>
+<p>The sytax of <strong>call by address</strong>,the parameter should be of type pointers.</p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">void</span> <span class="nf">swap</span><span class="p">(</span><span class="kt">int</span> <span class="o">*</span><span class="n">x</span><span class="p">,</span><span class="kt">int</span> <span class="o">*</span><span class="n">y</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="kt">int</span> <span class="n">temp</span><span class="p">;</span>
+    <span class="n">temp</span><span class="o">=*</span><span class="n">x</span><span class="p">;</span>
+    <span class="o">*</span><span class="n">x</span><span class="o">=*</span><span class="n">y</span><span class="p">;</span>
+    <span class="o">*</span><span class="n">y</span><span class="o">=</span><span class="n">temp</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>We purpose the address of actual parameters.So these pointers will be indirectly accessing these values itself.</p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="kt">int</span> <span class="n">num1</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span><span class="n">num2</span><span class="o">=</span><span class="mi">15</span><span class="p">;</span>
+
+    <span class="n">swap</span><span class="p">(</span><span class="o">&amp;</span><span class="n">num1</span><span class="p">,</span><span class="o">&amp;</span><span class="n">num2</span><span class="p">);</span>
+
+    <span class="n">sum</span><span class="o">=</span><span class="n">add</span><span class="p">(</span><span class="n">num1</span><span class="o">+</span><span class="n">num2</span><span class="p">);</span>
+    <span class="n">cout</span><span class="o">&lt;&lt;</span><span class="s">"First Number"</span><span class="o">&lt;&lt;</span><span class="n">num1</span><span class="p">;</span>
+    <span class="n">cout</span><span class="o">&lt;&lt;</span><span class="s">"Second Number"</span><span class="o">&lt;&lt;</span><span class="n">num1</span><span class="p">;</span>
+
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>First Number 15
+Second Number 10
+</code></pre></div></div>
+<p>This function is modifying actual parameters.<br />
+So it is not returning anything.<br />
+You can see that swap function is modifying <strong>two variables</strong> number one and number two.<br />
+But a function can return <strong>only one value</strong>.
+So better use call by address.</p>
+
+<h3 id="call-by-reference">Call By Reference</h3>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">void</span> <span class="nf">swap</span><span class="p">(</span><span class="kt">int</span> <span class="o">&amp;</span><span class="n">x</span><span class="p">,</span><span class="kt">int</span> <span class="o">&amp;</span><span class="n">y</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="kt">int</span> <span class="n">temp</span><span class="p">;</span>
+    <span class="n">temp</span><span class="o">=</span><span class="n">x</span><span class="p">;</span>
+    <span class="n">x</span><span class="o">=</span><span class="n">y</span><span class="p">;</span>
+    <span class="n">y</span><span class="o">=</span><span class="n">temp</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>The concept of references, it is a nickname of a variable,
+so <strong>x means num1</strong>.</p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="kt">int</span> <span class="n">num1</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span><span class="n">num2</span><span class="o">=</span><span class="mi">15</span><span class="p">;</span>
+
+    <span class="n">swap</span><span class="p">(</span><span class="n">num1</span><span class="p">,</span><span class="n">num2</span><span class="p">);</span>
+
+    <span class="n">sum</span><span class="o">=</span><span class="n">add</span><span class="p">(</span><span class="n">num1</span><span class="o">+</span><span class="n">num2</span><span class="p">);</span>
+    <span class="n">cout</span><span class="o">&lt;&lt;</span><span class="s">"First Number"</span><span class="o">&lt;&lt;</span><span class="n">num1</span><span class="p">;</span>
+    <span class="n">cout</span><span class="o">&lt;&lt;</span><span class="s">"Second Number"</span><span class="o">&lt;&lt;</span><span class="n">num1</span><span class="p">;</span>
+
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>There are two possibilities that a compiler can convert its function as an inline function and copy the entire code to <strong>main()</strong>.
+Or it can make these as pointers also.</p>]]></content><author><name>Richard Lin</name></author><category term="C++ Concepts" /><category term="C++ Concepts" /><summary type="html"><![CDATA[Parameter Passing Methods]]></summary></entry><entry><title type="html">Array</title><link href="http://0.0.0.0:4000/c++%20concepts/C++Array/" rel="alternate" type="text/html" title="Array" /><published>2022-08-27T00:00:00+08:00</published><updated>2022-08-27T00:00:00+08:00</updated><id>http://0.0.0.0:4000/c++%20concepts/C++Array</id><content type="html" xml:base="http://0.0.0.0:4000/c++%20concepts/C++Array/"><![CDATA[<h2 id="introduce-array-as-parameter">Introduce Array as Parameter</h2>
+
+<h4 id="array-as-parameter">Array as Parameter</h4>
+<p>We have to mention <strong>empty brackets</strong>.<br />
+We should not give any size, and this function doesn’t know the size of an area because area actually belongs to main function.<br />
+So this <strong>A</strong> is actually like a pointer to an area.</p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">void</span> <span class="nf">fun</span><span class="p">(</span><span class="kt">int</span> <span class="n">A</span><span class="p">[],</span><span class="kt">int</span> <span class="n">n</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="kt">int</span> <span class="n">i</span><span class="p">;</span>
+    <span class="k">for</span><span class="p">(</span><span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="n">i</span><span class="o">&lt;</span><span class="n">n</span><span class="p">;</span><span class="n">i</span><span class="o">++&gt;</span><span class="p">)</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">"%d"</span><span class="p">,</span><span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">]);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>Array is passed <strong>only</strong> by address.</p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="kt">int</span> <span class="n">A</span><span class="p">[</span><span class="mi">5</span><span class="p">]</span><span class="o">=</span><span class="p">{</span><span class="mi">2</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span><span class="mi">10</span><span class="p">};</span>
+    <span class="n">fun</span><span class="p">(</span><span class="n">A</span><span class="p">,</span><span class="mi">5</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>If i make any changes like below.</p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">void</span> <span class="nf">fun</span><span class="p">(</span><span class="kt">int</span> <span class="n">A</span><span class="p">[],</span><span class="kt">int</span> <span class="n">n</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="kt">int</span> <span class="n">i</span><span class="p">;</span>
+    <span class="n">A</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">=</span><span class="mi">25</span><span class="p">;</span>
+    <span class="k">for</span><span class="p">(</span><span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="n">i</span><span class="o">&lt;</span><span class="n">n</span><span class="p">;</span><span class="n">i</span><span class="o">++&gt;</span><span class="p">)</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">"%d"</span><span class="p">,</span><span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">]);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>Then <strong>A[0]</strong>=25;</p>
+
+<h4 id="returning-an-array">Returning an Array</h4>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="o">*</span><span class="nf">fun</span><span class="p">(</span><span class="kt">int</span> <span class="n">n</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="kt">int</span> <span class="o">*</span><span class="n">p</span><span class="p">;</span>
+    <span class="n">p</span><span class="o">=</span><span class="p">(</span><span class="kt">int</span> <span class="o">*</span><span class="p">)</span><span class="n">malloc</span><span class="p">(</span><span class="n">n</span><span class="o">*</span><span class="k">sizeof</span><span class="p">(</span><span class="kt">int</span><span class="p">));</span>
+    <span class="k">return</span><span class="p">(</span><span class="n">p</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="kt">int</span> <span class="o">*</span><span class="n">A</span><span class="p">;</span>
+    <span class="n">A</span><span class="o">=</span><span class="n">fun</span><span class="p">(</span><span class="mi">5</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p><img src="/assets/images/array.jpg" alt="icon" /></p>]]></content><author><name>Richard Lin</name></author><category term="C++ Concepts" /><category term="C++ Concepts" /><summary type="html"><![CDATA[Introduce Array as Parameter]]></summary></entry><entry><title type="html">Pointer &amp;amp; Reference</title><link href="http://0.0.0.0:4000/c++%20concepts/C++Pointer/" rel="alternate" type="text/html" title="Pointer &amp;amp; Reference" /><published>2022-08-22T00:00:00+08:00</published><updated>2022-08-22T00:00:00+08:00</updated><id>http://0.0.0.0:4000/c++%20concepts/C++Pointer</id><content type="html" xml:base="http://0.0.0.0:4000/c++%20concepts/C++Pointer/"><![CDATA[<h2 id="pointer-introduce">Pointer Introduce</h2>
 
 <h4 id="data-variable">Data variable</h4>
 <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>int a = 10;
@@ -8,61 +134,65 @@
 p = <span class="ni">&amp;a;</span>
 </code></pre></div></div>
 <p>create a memory space</p>
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>int main()
-{
-    int *p;
-*C
-    p=(int*)malloc(S*sizeof(int));
-*C++
-    p=new int[S];
-}
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="kt">int</span> <span class="o">*</span><span class="n">p</span><span class="p">;</span>
+<span class="c1">//*C</span>
+    <span class="n">p</span><span class="o">=</span><span class="p">(</span><span class="kt">int</span><span class="o">*</span><span class="p">)</span><span class="n">malloc</span><span class="p">(</span><span class="n">S</span><span class="o">*</span><span class="k">sizeof</span><span class="p">(</span><span class="kt">int</span><span class="p">));</span>
+<span class="c1">//*C++</span>
+    <span class="n">p</span><span class="o">=</span><span class="k">new</span> <span class="kt">int</span><span class="p">[</span><span class="n">S</span><span class="p">];</span>
+<span class="p">}</span>
 </code></pre></div></div>
 
-<h2 id="reference-introduce">Reference introduce</h2>
+<h2 id="reference-introduce">Reference Introduce</h2>
 <p>另一個別名(alias)</p>
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>int main()
-{
-    int a=10;
-    int <span class="ni">&amp;r=a;</span>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="kt">int</span> <span class="n">a</span><span class="o">=</span><span class="mi">10</span><span class="p">;</span>
+    <span class="kt">int</span> <span class="o">&amp;</span><span class="n">r</span><span class="o">=</span><span class="n">a</span><span class="p">;</span>
 
-    int b=30;
-    r=b;
-    cout<span class="nt">&lt;</span><span class="err">&lt;</span> <span class="na">a</span> <span class="err">&lt;&lt;</span> <span class="na">endl</span> <span class="err">&lt;&lt;</span> <span class="na">r</span> <span class="err">&lt;&lt;</span> <span class="na">endl</span><span class="err">;</span>
-<span class="err">}</span>
+    <span class="kt">int</span> <span class="n">b</span><span class="o">=</span><span class="mi">30</span><span class="p">;</span>
+    <span class="n">r</span><span class="o">=</span><span class="n">b</span><span class="p">;</span>
+    <span class="n">cout</span><span class="o">&lt;&lt;</span> <span class="n">a</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span> <span class="o">&lt;&lt;</span> <span class="n">r</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+<span class="p">}</span>
 </code></pre></div></div>
 <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Ans
 30
 30
 </code></pre></div></div>
 
-<!-- ```yaml
-# Pointers
-foo:
-  - title: "Link 1 Title"
-    url: /link-1-page-url/
+<h2 id="pointer-to-a-structure">Pointer to a Structure</h2>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">struct</span> <span class="nc">Rectangle</span>
+<span class="p">{</span>
+    <span class="kt">int</span> <span class="n">length</span><span class="p">;</span>
+    <span class="kt">int</span> <span class="n">breadth</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="kt">int</span> <span class="n">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="k">struct</span> <span class="nc">Rectangle</span> <span class="n">r</span><span class="o">=</span><span class="p">{</span><span class="mi">10</span><span class="p">,</span><span class="mi">5</span><span class="p">};</span>
+    <span class="k">struct</span> <span class="nc">Rectangle</span> <span class="o">*</span><span class="n">p</span> <span class="o">=</span> <span class="o">&amp;</span><span class="n">r</span><span class="p">;</span>
+    
+    <span class="n">r</span><span class="p">.</span><span class="n">length</span><span class="o">=</span><span class="mi">15</span><span class="p">;</span>
+    <span class="c1">//This is wrong because the higher precedence is for DOT operators.</span>
+    <span class="o">*</span><span class="n">p</span><span class="p">.</span><span class="n">length</span><span class="o">=</span><span class="mi">20</span><span class="p">;</span>
+    <span class="c1">///the following codes are right.</span>
+    <span class="p">(</span><span class="o">*</span><span class="n">p</span><span class="p">).</span><span class="n">length</span><span class="o">=</span><span class="mi">20</span><span class="p">;</span>
+    <span class="n">p</span><span class="o">-&gt;</span><span class="n">length</span><span class="o">=</span><span class="mi">20</span><span class="p">;</span>
+<span class="p">}</span>
 
-  - title: "Link 2 Title"
-    url: http://external-link.com
+<span class="kt">int</span> <span class="n">Assign</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="c1">//in the heap memory</span>
+    <span class="k">struct</span> <span class="nc">Rectangle</span> <span class="o">*</span><span class="n">p</span><span class="p">;</span>
+    <span class="c1">//type casting (struct Rectangle*)</span>
+    <span class="n">p</span><span class="o">=</span><span class="p">(</span><span class="k">struct</span> <span class="nc">Rectangle</span><span class="o">*</span><span class="p">)</span><span class="n">malloc</span><span class="p">(</span><span class="k">sizeof</span><span class="p">(</span><span class="k">struct</span> <span class="nc">Rectangle</span><span class="p">));</span>
+    <span class="n">p</span><span class="o">-&gt;</span><span class="n">length</span><span class="o">=</span><span class="mi">20</span><span class="p">;</span>
+    <span class="n">p</span><span class="o">-&gt;</span><span class="n">breadth</span><span class="o">=</span><span class="mi">20</span><span class="p">;</span>
+<span class="p">}</span>
 
-  - title: "Link 3 Title"
-    url: /link-3-page-url/
+</code></pre></div></div>
 
-  - title: "Link 4 Title"
-    url: /link-4-page-url/
-``` -->
-<!-- ```markdown
-![image-center](/assets/images/filename.jpg){: .align-center}
-``` -->
-<!-- **Note:** for technical reasons, `_config.yml` is NOT reloaded automatically when used with `jekyll serve`. If you make any changes to this file, please restart the server process for them to be applied.
-{: .notice--warning}
-
-Take a moment to look over the configuration file included with the theme. Comments have been added to provide examples and default values for most settings. Detailed explanations of each can be found below.
-
-## Site settings
-
-### Theme -->]]></content><author><name>Richard Lin</name></author><category term="C++ Concepts" /><category term="C++ Concepts" /><summary type="html"><![CDATA[Pointer introduce]]></summary></entry><entry><title type="html">Array</title><link href="http://0.0.0.0:4000/c++%20concepts/C++Array/" rel="alternate" type="text/html" title="Array" /><published>2022-08-22T00:00:00+08:00</published><updated>2022-08-22T00:00:00+08:00</updated><id>http://0.0.0.0:4000/c++%20concepts/C++Array</id><content type="html" xml:base="http://0.0.0.0:4000/c++%20concepts/C++Array/"><![CDATA[<h2 id="介紹關於array的傳值">介紹關於Array的傳值</h2>
-
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># _data/navigation.yml</span>
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Pointers</span>
 <span class="na">foo</span><span class="pi">:</span>
   <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Link</span><span class="nv"> </span><span class="s">1</span><span class="nv"> </span><span class="s">Title"</span>
     <span class="na">url</span><span class="pi">:</span> <span class="s">/link-1-page-url/</span>
@@ -75,4 +205,13 @@ Take a moment to look over the configuration file included with the theme. Comme
 
   <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Link</span><span class="nv"> </span><span class="s">4</span><span class="nv"> </span><span class="s">Title"</span>
     <span class="na">url</span><span class="pi">:</span> <span class="s">/link-4-page-url/</span>
-</code></pre></div></div>]]></content><author><name>Richard Lin</name></author><category term="C++ Concepts" /><category term="C++ Concepts" /><summary type="html"><![CDATA[介紹關於Array的傳值]]></summary></entry></feed>
+</code></pre></div></div>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">![</span><span class="nv">image-center</span><span class="p">](</span><span class="sx">/assets/images/filename.jpg</span><span class="p">)</span>{: .align-center}
+</code></pre></div></div>
+<p class="notice--warning"><strong>Note:</strong> for technical reasons, <code class="language-plaintext highlighter-rouge">_config.yml</code> is NOT reloaded automatically when used with <code class="language-plaintext highlighter-rouge">jekyll serve</code>. If you make any changes to this file, please restart the server process for them to be applied.</p>
+
+<p>Take a moment to look over the configuration file included with the theme. Comments have been added to provide examples and default values for most settings. Detailed explanations of each can be found below.</p>
+
+<h2 id="site-settings">Site settings</h2>
+
+<h3 id="theme">Theme</h3>]]></content><author><name>Richard Lin</name></author><category term="C++ Concepts" /><category term="C++ Concepts" /><summary type="html"><![CDATA[Pointer Introduce]]></summary></entry></feed>

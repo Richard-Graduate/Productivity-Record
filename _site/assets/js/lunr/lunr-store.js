@@ -125,15 +125,21 @@ var store = [{
         "url": "/docs/license/",
         "teaser": null
       },{
+        "title": "Pointer & Reference",
+        "excerpt":"Pointer Introduce Data variable int a = 10; Address variable int *p; p = &amp;a; create a memory space int main() { int *p; //*C p=(int*)malloc(S*sizeof(int)); //*C++ p=new int[S]; } Reference Introduce 另一個別名(alias) int main() { int a=10; int &amp;r=a; int b=30; r=b; cout&lt;&lt; a &lt;&lt; endl &lt;&lt; r &lt;&lt;...","categories": ["C++ Concepts"],
+        "tags": ["C++ Concepts"],
+        "url": "/c++%20concepts/C++Pointer/",
+        "teaser": null
+      },{
         "title": "Array",
-        "excerpt":"介紹關於Array的傳值   # _data/navigation.yml foo:   - title: \"Link 1 Title\"     url: /link-1-page-url/    - title: \"Link 2 Title\"     url: http://external-link.com    - title: \"Link 3 Title\"     url: /link-3-page-url/    - title: \"Link 4 Title\"     url: /link-4-page-url/  ","categories": ["C++ Concepts"],
+        "excerpt":"Introduce Array as Parameter Array as Parameter We have to mention empty brackets. We should not give any size, and this function doesn’t know the size of an area because area actually belongs to main function. So this A is actually like a pointer to an area. void fun(int A[],int...","categories": ["C++ Concepts"],
         "tags": ["C++ Concepts"],
         "url": "/c++%20concepts/C++Array/",
         "teaser": null
       },{
-        "title": "Pointer & Reference",
-        "excerpt":"Pointer introduce Data variable int a = 10; Address variable int *p; p = &amp;a; create a memory space int main() { int *p; *C p=(int*)malloc(S*sizeof(int)); *C++ p=new int[S]; } Reference introduce 另一個別名(alias) int main() { int a=10; int &amp;r=a; int b=30; r=b; cout&lt;&lt; a &lt;&lt; endl &lt;&lt; r &lt;&lt;...","categories": ["C++ Concepts"],
+        "title": "Parameter Passing Methods",
+        "excerpt":"Parameter Passing Methods Call By Value int add(int a,int b) { int c; c=a+b; return c; } int main() { int num1=10,num2=15,sum; sum=add(num1+num2); return 0; } Values are passed here and this type of parameter parsing, if any changes are done to this formal parameters {int add(int a,int b)}, that...","categories": ["C++ Concepts"],
         "tags": ["C++ Concepts"],
-        "url": "/c++%20concepts/C++Pointer/",
+        "url": "/c++%20concepts/Parameter-Passing-Methods/",
         "teaser": null
       },]
