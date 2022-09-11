@@ -138,8 +138,20 @@ var store = [{
         "teaser": null
       },{
         "title": "Parameter Passing Methods",
-        "excerpt":"Parameter Passing Methods Call By Value int add(int a,int b) { int c; c=a+b; return c; } int main() { int num1=10,num2=15,sum; sum=add(num1+num2); return 0; } Values are passed here and this type of parameter parsing, if any changes are done to this formal parameters {int add(int a,int b)}, that...","categories": ["C++ Concepts"],
+        "excerpt":"Parameter Passing Methods Call By Value int add(int a,int b) { int c; c=a+b; return c; } int main() { int num1=10,num2=15,sum; sum=add(num1+num2); return 0; } Values are passed here and this type of parameter pasing, if any changes are done to this formal parameters {int add(int a,int b)}, that...","categories": ["C++ Concepts"],
         "tags": ["C++ Concepts"],
         "url": "/c++%20concepts/Parameter-Passing-Methods/",
+        "teaser": null
+      },{
+        "title": "Workout book report",
+        "excerpt":"理論   頻率     效果最佳頻率為各部位肌肉群每周訓練二至三次，每次間隔一至二天。   初學者以各部位肌肉群一周鍛鍊二至三次的全身訓練菜單為主流。   各肌肉群『6 to 10 → 8 to 15 → 10 to 20 』逐步進階。   以八下為起點，12下為目標，8至12次，可穩定做完12下，換下一重量。 //理論5     First Number 15 Second Number 10          ","categories": ["WorkOut"],
+        "tags": ["WorkOut"],
+        "url": "/workout/Workout-book-report/",
+        "teaser": null
+      },{
+        "title": "WorkOut Record",
+        "excerpt":"2022健身組數紀錄 Date Item Weight       2022/09/05 啞鈴握推 35/8 35/8 35/8     引體向上   3       硬舉 50/8 50/9 50/10     滑輪下拉 26/12 26/12 26/12               2022/09/09 深蹲 40/8 60/8 70/8     硬舉 30*8 30*8 30*8    ...","categories": ["WorkOut"],
+        "tags": ["WorkOut"],
+        "url": "/workout/Workout/",
         "teaser": null
       },]

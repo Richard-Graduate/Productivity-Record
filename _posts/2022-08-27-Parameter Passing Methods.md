@@ -22,7 +22,7 @@ int main()
     return 0;
 }
 ```
-Values are passed here and this type of parameter parsing, if any changes are done to  
+Values are passed here and this type of parameter pasing, if any changes are done to  
 
 this formal parameters   {**int add(int a,int b)**},   
 
