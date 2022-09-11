@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2022-09-11T13:15:57+08:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Memory Record</title><subtitle>A flexible Jekyll theme for your blog or site with a minimalist aesthetic.</subtitle><author><name>Richard Lin</name></author><entry><title type="html">WorkOut Record</title><link href="http://0.0.0.0:4000/workout/Workout/" rel="alternate" type="text/html" title="WorkOut Record" /><published>2022-09-05T00:00:00+08:00</published><updated>2022-09-05T00:00:00+08:00</updated><id>http://0.0.0.0:4000/workout/Workout</id><content type="html" xml:base="http://0.0.0.0:4000/workout/Workout/"><![CDATA[<h2 id="2022健身組數紀錄">2022健身組數紀錄</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2022-09-11T22:10:02+08:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Memory Record</title><subtitle>A flexible Jekyll theme for your blog or site with a minimalist aesthetic.</subtitle><author><name>Richard Lin</name></author><entry><title type="html">WorkOut Record</title><link href="http://0.0.0.0:4000/workout/Workout/" rel="alternate" type="text/html" title="WorkOut Record" /><published>2022-09-05T00:00:00+08:00</published><updated>2022-09-05T00:00:00+08:00</updated><id>http://0.0.0.0:4000/workout/Workout</id><content type="html" xml:base="http://0.0.0.0:4000/workout/Workout/"><![CDATA[<h2 id="2022健身組數紀錄">2022健身組數紀錄</h2>
 
 <table>
   <thead>
@@ -84,6 +84,56 @@
       <td style="text-align: center">40*8</td>
       <td style="text-align: center">35*8</td>
     </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><strong>2022/09/11</strong></td>
+      <td style="text-align: center">深蹲</td>
+      <td style="text-align: center">50/8</td>
+      <td style="text-align: center">50/8</td>
+      <td style="text-align: center">50/8</td>
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">硬舉</td>
+      <td style="text-align: center">40*8</td>
+      <td style="text-align: center">40*8</td>
+      <td style="text-align: center">40*8</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">槓鈴划船</td>
+      <td style="text-align: center">40*8</td>
+      <td style="text-align: center">40*8</td>
+      <td style="text-align: center">40*8</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">槓鈴握推</td>
+      <td style="text-align: center">40*8</td>
+      <td style="text-align: center">40*8</td>
+      <td style="text-align: center">40*8</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">滑輪下拉</td>
+      <td style="text-align: center">18*12</td>
+      <td style="text-align: center">18*12</td>
+      <td style="text-align: center">18*12</td>
+      <td style="text-align: center"> </td>
+    </tr>
   </tbody>
 </table>
 
@@ -113,16 +163,28 @@
 </tbody></table>]]></content><author><name>Richard Lin</name></author><category term="WorkOut" /><category term="WorkOut" /><summary type="html"><![CDATA[2022健身組數紀錄]]></summary></entry><entry><title type="html">Workout book report</title><link href="http://0.0.0.0:4000/workout/Workout-book-report/" rel="alternate" type="text/html" title="Workout book report" /><published>2022-09-05T00:00:00+08:00</published><updated>2022-09-05T00:00:00+08:00</updated><id>http://0.0.0.0:4000/workout/Workout%20book%20report</id><content type="html" xml:base="http://0.0.0.0:4000/workout/Workout-book-report/"><![CDATA[<h2 id="理論">理論</h2>
 
 <h3 id="頻率">頻率</h3>
-<ol>
+<ul>
   <li>效果最佳頻率為各部位肌肉群每周訓練二至三次，每次間隔一至二天。</li>
   <li>初學者以各部位肌肉群<strong>一周鍛鍊二至三次</strong>的全身訓練菜單為主流。</li>
   <li>各肌肉群『6 to 10 → 8 to 15 → 10 to 20 』逐步進階。</li>
-  <li>以八下為起點，12下為目標，8至12次，可穩定做完12下，換下一重量。 //理論5
+  <li>以八下為起點，12下為目標，8至12次，可穩定做完12下，換下一重量。 <em>–理論5</em></li>
+  <li>有效次數為最後五下，且在每組最後，保留一至二下的剩餘力量，效果比練到極限更好。</li>
+</ul>
+
+<h3 id="姿勢">姿勢</h3>
+<p>以多關節項目為主。<em>–理論8</em></p>
+<ul>
+  <li>使用到要鍛鍊的目標肌肉。</li>
+  <li>採取最大關節活動範圍。</li>
+  <li>能用意志控制負重物的軌道。</li>
+  <li>做動作時部會感到疼痛。</li>
+  <li>以一倍的時間舉起動作，約一點五倍時間放下。<em>–理論9</em></li>
+  <li>訓練前後不需做靜態伸展，以動態伸展為主。<em>–理論13</em>
     <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>First Number 15
 Second Number 10
 </code></pre></div>    </div>
   </li>
-</ol>]]></content><author><name>Richard Lin</name></author><category term="WorkOut" /><category term="WorkOut" /><summary type="html"><![CDATA[理論]]></summary></entry><entry><title type="html">Array</title><link href="http://0.0.0.0:4000/c++%20concepts/C++Array/" rel="alternate" type="text/html" title="Array" /><published>2022-08-27T00:00:00+08:00</published><updated>2022-08-27T00:00:00+08:00</updated><id>http://0.0.0.0:4000/c++%20concepts/C++Array</id><content type="html" xml:base="http://0.0.0.0:4000/c++%20concepts/C++Array/"><![CDATA[<h2 id="introduce-array-as-parameter">Introduce Array as Parameter</h2>
+</ul>]]></content><author><name>Richard Lin</name></author><category term="WorkOut" /><category term="WorkOut" /><summary type="html"><![CDATA[理論]]></summary></entry><entry><title type="html">Array</title><link href="http://0.0.0.0:4000/c++%20concepts/C++Array/" rel="alternate" type="text/html" title="Array" /><published>2022-08-27T00:00:00+08:00</published><updated>2022-08-27T00:00:00+08:00</updated><id>http://0.0.0.0:4000/c++%20concepts/C++Array</id><content type="html" xml:base="http://0.0.0.0:4000/c++%20concepts/C++Array/"><![CDATA[<h2 id="introduce-array-as-parameter">Introduce Array as Parameter</h2>
 
 <h4 id="array-as-parameter">Array as Parameter</h4>
 <p>We have to mention <strong>empty brackets</strong>.<br />
