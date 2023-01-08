@@ -1,4 +1,81 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2023-01-08T21:26:26+08:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Memory Record</title><subtitle>A flexible Jekyll theme for your blog or site with a minimalist aesthetic.</subtitle><author><name>Richard Lin</name></author><entry><title type="html">5 years target</title><link href="http://0.0.0.0:4000/goal/Target/" rel="alternate" type="text/html" title="5 years target" /><published>2022-10-19T00:00:00+08:00</published><updated>2022-10-19T00:00:00+08:00</updated><id>http://0.0.0.0:4000/goal/Target</id><content type="html" xml:base="http://0.0.0.0:4000/goal/Target/"><![CDATA[<h2 id="pointer-introduce">Pointer Introduce</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2023-01-08T23:26:33+08:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Memory Record</title><subtitle>A flexible Jekyll theme for your blog or site with a minimalist aesthetic.</subtitle><author><name>Richard Lin</name></author><entry><title type="html">WorkOut Record</title><link href="http://0.0.0.0:4000/workout/1%E6%9C%88Workout/" rel="alternate" type="text/html" title="WorkOut Record" /><published>2023-01-08T00:00:00+08:00</published><updated>2023-01-08T00:00:00+08:00</updated><id>http://0.0.0.0:4000/workout/1%E6%9C%88Workout</id><content type="html" xml:base="http://0.0.0.0:4000/workout/1%E6%9C%88Workout/"><![CDATA[<h2 id="202301-健身組數紀錄">2023/01 健身組數紀錄</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><strong>日期</strong></th>
+      <th style="text-align: center"><strong>活動</strong></th>
+      <th style="text-align: center"><strong>重量/次</strong></th>
+      <th style="text-align: center"> </th>
+      <th style="text-align: center"> </th>
+      <th style="text-align: center"> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><strong>2023/01/07</strong></td>
+      <td style="text-align: center">滑輪背拉</td>
+      <td style="text-align: center">30/10</td>
+      <td style="text-align: center">30/10</td>
+      <td style="text-align: center">30/10</td>
+      <td style="text-align: center">30/10</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">硬舉</td>
+      <td style="text-align: center">40/8</td>
+      <td style="text-align: center">40/8</td>
+      <td style="text-align: center">40/8</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">機械推舉</td>
+      <td style="text-align: center">27/10</td>
+      <td style="text-align: center">27/10</td>
+      <td style="text-align: center">27/10</td>
+      <td style="text-align: center">27/10</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">槓鈴握推</td>
+      <td style="text-align: center">40/6</td>
+      <td style="text-align: center">40/6</td>
+      <td style="text-align: center">40/6</td>
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+</table>]]></content><author><name>Richard Lin</name></author><category term="WorkOut" /><category term="WorkOut" /><summary type="html"><![CDATA[2023/01 健身組數紀錄]]></summary></entry><entry><title type="html">traffic|bathing suit|fridge|tights|trousers</title><link href="http://0.0.0.0:4000/vocabulary%20list%20a2/English-Word/" rel="alternate" type="text/html" title="traffic|bathing suit|fridge|tights|trousers" /><published>2022-12-11T00:00:00+08:00</published><updated>2022-12-11T00:00:00+08:00</updated><id>http://0.0.0.0:4000/vocabulary%20list%20a2/English%20Word</id><content type="html" xml:base="http://0.0.0.0:4000/vocabulary%20list%20a2/English-Word/"><![CDATA[<h2 id="a2-key-vocabulary-list">A2 Key Vocabulary List</h2>
+<h6 id="20221211">2022/12/11</h6>
+<h2 id="1traffic-">1.traffic       </h2>
+<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/traffic">UK  /ˈtræf.ɪk/</a></p>
+
+<p class="notice--warning">the number of vehicles moving along roads, or the amount of aircraft, trains, or ships moving along a route.</p>
+<p><code class="language-plaintext highlighter-rouge">We got stuck in traffic for several hours.</code></p>
+<h2 id="2bathing-suit-">2.bathing suit       </h2>
+
+<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/bathing-suit">UK  /ˈbeɪ.ðɪŋ ˌsuːt/</a></p>
+
+<p class="notice--warning">a piece of clothing that you wear for swimming</p>
+<p><code class="language-plaintext highlighter-rouge">She donned her bathing suit and headed for the pool.</code></p>
+<h2 id="3fridge-">3.fridge       </h2>
+
+<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/bathing-suit">UK  /frɪdʒ/</a></p>
+
+<p class="notice--warning">a piece of kitchen equipment that uses electricity to preserve food at a cold temperature</p>
+<p><code class="language-plaintext highlighter-rouge">Don't forget to put the milk back in the fridge.</code></p>
+<h2 id="4tights-">4.tights       </h2>
+
+<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/bathing-suit">UK  /taɪts/</a></p>
+
+<p class="notice--warning">a piece of clothing made of very thin material that tightly covers the feet, legs, and lower part of the body below the waist, often worn under skirts and dresses</p>
+<p><code class="language-plaintext highlighter-rouge">She bought a new pair of tights.</code></p>
+<h2 id="5trousers-">5.trousers       </h2>
+
+<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/bathing-suit">UK  /ˈtraʊ.zəz/</a></p>
+
+<p class="notice--warning">a piece of clothing that covers the lower part of the body from the waist to the feet, consisting of two cylinder-shaped parts, one for each leg, that are joined at the top</p>
+<p><code class="language-plaintext highlighter-rouge">I need a new pair of trousers to go with this jacket.</code></p>]]></content><author><name>Richard Lin</name></author><category term="Vocabulary List A2" /><category term="Vocabulary List A2" /><summary type="html"><![CDATA[A2 Key Vocabulary List 2022/12/11 1.traffic        UK /ˈtræf.ɪk/]]></summary></entry><entry><title type="html">5 years target</title><link href="http://0.0.0.0:4000/goal/Target/" rel="alternate" type="text/html" title="5 years target" /><published>2022-10-19T00:00:00+08:00</published><updated>2022-10-19T00:00:00+08:00</updated><id>http://0.0.0.0:4000/goal/Target</id><content type="html" xml:base="http://0.0.0.0:4000/goal/Target/"><![CDATA[<h2 id="pointer-introduce">Pointer Introduce</h2>
 
 <h4 id="data-variable">Data variable</h4>
 <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>int a = 10;
@@ -350,31 +427,7 @@ Breadth 5
 Breadth 7
 </code></pre></div></div>
 <p>So this program is demonstrating how function can return a <strong>pointer</strong> to an object created in a heap,<br />
- and that can be accessed using <strong>main function</strong> also it can be accessed by any function of that point.</p>]]></content><author><name>Richard Lin</name></author><category term="C++ Concepts" /><category term="C++ Concepts" /><summary type="html"><![CDATA[Parameter Passing Methods]]></summary></entry><entry><title type="html">Workout book report</title><link href="http://0.0.0.0:4000/workout/Workout-book-report/" rel="alternate" type="text/html" title="Workout book report" /><published>2022-09-05T00:00:00+08:00</published><updated>2022-09-05T00:00:00+08:00</updated><id>http://0.0.0.0:4000/workout/Workout%20book%20report</id><content type="html" xml:base="http://0.0.0.0:4000/workout/Workout-book-report/"><![CDATA[<h2 id="理論">理論</h2>
-
-<h3 id="頻率">頻率</h3>
-<ul>
-  <li>效果最佳頻率為各部位肌肉群每周訓練二至三次，每次間隔一至二天。</li>
-  <li>初學者以各部位肌肉群<strong>一周鍛鍊二至三次</strong>的全身訓練菜單為主流。</li>
-  <li>各肌肉群『6 to 10 → 8 to 15 → 10 to 20 』逐步進階。</li>
-  <li>以八下為起點，12下為目標，8至12次，可穩定做完12下，換下一重量。 <em>–理論5</em></li>
-  <li>有效次數為最後五下，且在每組最後，保留一至二下的剩餘力量，效果比練到極限更好。</li>
-</ul>
-
-<h3 id="姿勢">姿勢</h3>
-<p>以多關節項目為主。<em>–理論8</em></p>
-<ul>
-  <li>使用到要鍛鍊的目標肌肉。</li>
-  <li>採取最大關節活動範圍。</li>
-  <li>能用意志控制負重物的軌道。</li>
-  <li>做動作時部會感到疼痛。</li>
-  <li>以一倍的時間舉起動作，約一點五倍時間放下。<em>–理論9</em></li>
-  <li>訓練前後不需做靜態伸展，以動態伸展為主。<em>–理論13</em></li>
-</ul>
-
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>First Number 15
-Second Number 10
-</code></pre></div></div>]]></content><author><name>Richard Lin</name></author><category term="WorkOut" /><category term="WorkOut" /><summary type="html"><![CDATA[理論]]></summary></entry><entry><title type="html">WorkOut Record</title><link href="http://0.0.0.0:4000/workout/9%E6%9C%88Workout/" rel="alternate" type="text/html" title="WorkOut Record" /><published>2022-09-05T00:00:00+08:00</published><updated>2022-09-05T00:00:00+08:00</updated><id>http://0.0.0.0:4000/workout/9%E6%9C%88Workout</id><content type="html" xml:base="http://0.0.0.0:4000/workout/9%E6%9C%88Workout/"><![CDATA[<h2 id="20229-健身組數紀錄">2022/9 健身組數紀錄</h2>
+ and that can be accessed using <strong>main function</strong> also it can be accessed by any function of that point.</p>]]></content><author><name>Richard Lin</name></author><category term="C++ Concepts" /><category term="C++ Concepts" /><summary type="html"><![CDATA[Parameter Passing Methods]]></summary></entry><entry><title type="html">WorkOut Record</title><link href="http://0.0.0.0:4000/workout/9%E6%9C%88Workout/" rel="alternate" type="text/html" title="WorkOut Record" /><published>2022-09-05T00:00:00+08:00</published><updated>2022-09-05T00:00:00+08:00</updated><id>http://0.0.0.0:4000/workout/9%E6%9C%88Workout</id><content type="html" xml:base="http://0.0.0.0:4000/workout/9%E6%9C%88Workout/"><![CDATA[<h2 id="20229-健身組數紀錄">2022/9 健身組數紀錄</h2>
 
 <table>
   <thead>
@@ -811,7 +864,31 @@ Second Number 10
 
 
 
-</tbody></table>]]></content><author><name>Richard Lin</name></author><category term="WorkOut" /><category term="WorkOut" /><summary type="html"><![CDATA[2022/9 健身組數紀錄]]></summary></entry><entry><title type="html">Array</title><link href="http://0.0.0.0:4000/c++%20concepts/C++Array/" rel="alternate" type="text/html" title="Array" /><published>2022-08-27T00:00:00+08:00</published><updated>2022-08-27T00:00:00+08:00</updated><id>http://0.0.0.0:4000/c++%20concepts/C++Array</id><content type="html" xml:base="http://0.0.0.0:4000/c++%20concepts/C++Array/"><![CDATA[<h2 id="introduce-array-as-parameter">Introduce Array as Parameter</h2>
+</tbody></table>]]></content><author><name>Richard Lin</name></author><category term="WorkOut" /><category term="WorkOut" /><summary type="html"><![CDATA[2022/9 健身組數紀錄]]></summary></entry><entry><title type="html">Workout book report</title><link href="http://0.0.0.0:4000/workout/Workout-book-report/" rel="alternate" type="text/html" title="Workout book report" /><published>2022-09-05T00:00:00+08:00</published><updated>2022-09-05T00:00:00+08:00</updated><id>http://0.0.0.0:4000/workout/Workout%20book%20report</id><content type="html" xml:base="http://0.0.0.0:4000/workout/Workout-book-report/"><![CDATA[<h2 id="理論">理論</h2>
+
+<h3 id="頻率">頻率</h3>
+<ul>
+  <li>效果最佳頻率為各部位肌肉群每周訓練二至三次，每次間隔一至二天。</li>
+  <li>初學者以各部位肌肉群<strong>一周鍛鍊二至三次</strong>的全身訓練菜單為主流。</li>
+  <li>各肌肉群『6 to 10 → 8 to 15 → 10 to 20 』逐步進階。</li>
+  <li>以八下為起點，12下為目標，8至12次，可穩定做完12下，換下一重量。 <em>–理論5</em></li>
+  <li>有效次數為最後五下，且在每組最後，保留一至二下的剩餘力量，效果比練到極限更好。</li>
+</ul>
+
+<h3 id="姿勢">姿勢</h3>
+<p>以多關節項目為主。<em>–理論8</em></p>
+<ul>
+  <li>使用到要鍛鍊的目標肌肉。</li>
+  <li>採取最大關節活動範圍。</li>
+  <li>能用意志控制負重物的軌道。</li>
+  <li>做動作時部會感到疼痛。</li>
+  <li>以一倍的時間舉起動作，約一點五倍時間放下。<em>–理論9</em></li>
+  <li>訓練前後不需做靜態伸展，以動態伸展為主。<em>–理論13</em></li>
+</ul>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>First Number 15
+Second Number 10
+</code></pre></div></div>]]></content><author><name>Richard Lin</name></author><category term="WorkOut" /><category term="WorkOut" /><summary type="html"><![CDATA[理論]]></summary></entry><entry><title type="html">Array</title><link href="http://0.0.0.0:4000/c++%20concepts/C++Array/" rel="alternate" type="text/html" title="Array" /><published>2022-08-27T00:00:00+08:00</published><updated>2022-08-27T00:00:00+08:00</updated><id>http://0.0.0.0:4000/c++%20concepts/C++Array</id><content type="html" xml:base="http://0.0.0.0:4000/c++%20concepts/C++Array/"><![CDATA[<h2 id="introduce-array-as-parameter">Introduce Array as Parameter</h2>
 
 <h4 id="array-as-parameter">Array as Parameter</h4>
 <p>We have to mention <strong>empty brackets</strong>.<br />
@@ -945,94 +1022,4 @@ so <strong>x means num1</strong>.</p>
 <span class="p">}</span>
 </code></pre></div></div>
 <p>There are two possibilities that a compiler can convert its function as an inline function and copy the entire code to <strong>main()</strong>.
-Or it can make these as pointers also.</p>]]></content><author><name>Richard Lin</name></author><category term="C++ Concepts" /><category term="C++ Concepts" /><summary type="html"><![CDATA[Parameter Passing Methods]]></summary></entry><entry><title type="html">Pointer &amp;amp; Reference</title><link href="http://0.0.0.0:4000/c++%20concepts/C++Pointer/" rel="alternate" type="text/html" title="Pointer &amp;amp; Reference" /><published>2022-08-22T00:00:00+08:00</published><updated>2022-08-22T00:00:00+08:00</updated><id>http://0.0.0.0:4000/c++%20concepts/C++Pointer</id><content type="html" xml:base="http://0.0.0.0:4000/c++%20concepts/C++Pointer/"><![CDATA[<h2 id="pointer-introduce">Pointer Introduce</h2>
-
-<h4 id="data-variable">Data variable</h4>
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>int a = 10;
-</code></pre></div></div>
-<h4 id="address-variable">Address variable</h4>
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>int <span class="err">*</span>p;
-p = <span class="ni">&amp;a;</span>
-</code></pre></div></div>
-<p>create a memory space</p>
-<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
-<span class="p">{</span>
-    <span class="kt">int</span> <span class="o">*</span><span class="n">p</span><span class="p">;</span>
-<span class="c1">//*C</span>
-    <span class="n">p</span><span class="o">=</span><span class="p">(</span><span class="kt">int</span><span class="o">*</span><span class="p">)</span><span class="n">malloc</span><span class="p">(</span><span class="n">S</span><span class="o">*</span><span class="k">sizeof</span><span class="p">(</span><span class="kt">int</span><span class="p">));</span>
-<span class="c1">//*C++</span>
-    <span class="n">p</span><span class="o">=</span><span class="k">new</span> <span class="kt">int</span><span class="p">[</span><span class="n">S</span><span class="p">];</span>
-<span class="p">}</span>
-</code></pre></div></div>
-
-<h2 id="reference-introduce">Reference Introduce</h2>
-<p>Another alias.</p>
-<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
-<span class="p">{</span>
-    <span class="kt">int</span> <span class="n">a</span><span class="o">=</span><span class="mi">10</span><span class="p">;</span>
-    <span class="kt">int</span> <span class="o">&amp;</span><span class="n">r</span><span class="o">=</span><span class="n">a</span><span class="p">;</span>
-
-    <span class="kt">int</span> <span class="n">b</span><span class="o">=</span><span class="mi">30</span><span class="p">;</span>
-    <span class="n">r</span><span class="o">=</span><span class="n">b</span><span class="p">;</span>
-    <span class="n">cout</span><span class="o">&lt;&lt;</span> <span class="n">a</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span> <span class="o">&lt;&lt;</span> <span class="n">r</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div></div>
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Ans
-30
-30
-</code></pre></div></div>
-
-<h2 id="pointer-to-a-structure">Pointer to a Structure</h2>
-<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">struct</span> <span class="nc">Rectangle</span>
-<span class="p">{</span>
-    <span class="kt">int</span> <span class="n">length</span><span class="p">;</span>
-    <span class="kt">int</span> <span class="n">breadth</span><span class="p">;</span>
-<span class="p">}</span>
-<span class="kt">int</span> <span class="n">main</span><span class="p">()</span>
-<span class="p">{</span>
-    <span class="k">struct</span> <span class="nc">Rectangle</span> <span class="n">r</span><span class="o">=</span><span class="p">{</span><span class="mi">10</span><span class="p">,</span><span class="mi">5</span><span class="p">};</span>
-    <span class="k">struct</span> <span class="nc">Rectangle</span> <span class="o">*</span><span class="n">p</span> <span class="o">=</span> <span class="o">&amp;</span><span class="n">r</span><span class="p">;</span>
-    
-    <span class="n">r</span><span class="p">.</span><span class="n">length</span><span class="o">=</span><span class="mi">15</span><span class="p">;</span>
-    <span class="c1">//This is wrong because the higher precedence is for DOT operators.</span>
-    <span class="o">*</span><span class="n">p</span><span class="p">.</span><span class="n">length</span><span class="o">=</span><span class="mi">20</span><span class="p">;</span>
-    <span class="c1">///the following codes are right.</span>
-    <span class="p">(</span><span class="o">*</span><span class="n">p</span><span class="p">).</span><span class="n">length</span><span class="o">=</span><span class="mi">20</span><span class="p">;</span>
-    <span class="n">p</span><span class="o">-&gt;</span><span class="n">length</span><span class="o">=</span><span class="mi">20</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="kt">int</span> <span class="n">Assign</span><span class="p">()</span>
-<span class="p">{</span>
-    <span class="c1">//in the heap memory</span>
-    <span class="k">struct</span> <span class="nc">Rectangle</span> <span class="o">*</span><span class="n">p</span><span class="p">;</span>
-    <span class="c1">//type casting (struct Rectangle*)</span>
-    <span class="n">p</span><span class="o">=</span><span class="p">(</span><span class="k">struct</span> <span class="nc">Rectangle</span><span class="o">*</span><span class="p">)</span><span class="n">malloc</span><span class="p">(</span><span class="k">sizeof</span><span class="p">(</span><span class="k">struct</span> <span class="nc">Rectangle</span><span class="p">));</span>
-    <span class="n">p</span><span class="o">-&gt;</span><span class="n">length</span><span class="o">=</span><span class="mi">20</span><span class="p">;</span>
-    <span class="n">p</span><span class="o">-&gt;</span><span class="n">breadth</span><span class="o">=</span><span class="mi">20</span><span class="p">;</span>
-<span class="p">}</span>
-
-</code></pre></div></div>
-
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Pointers</span>
-<span class="na">foo</span><span class="pi">:</span>
-  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Link</span><span class="nv"> </span><span class="s">1</span><span class="nv"> </span><span class="s">Title"</span>
-    <span class="na">url</span><span class="pi">:</span> <span class="s">/link-1-page-url/</span>
-
-  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Link</span><span class="nv"> </span><span class="s">2</span><span class="nv"> </span><span class="s">Title"</span>
-    <span class="na">url</span><span class="pi">:</span> <span class="s">http://external-link.com</span>
-
-  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Link</span><span class="nv"> </span><span class="s">3</span><span class="nv"> </span><span class="s">Title"</span>
-    <span class="na">url</span><span class="pi">:</span> <span class="s">/link-3-page-url/</span>
-
-  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Link</span><span class="nv"> </span><span class="s">4</span><span class="nv"> </span><span class="s">Title"</span>
-    <span class="na">url</span><span class="pi">:</span> <span class="s">/link-4-page-url/</span>
-</code></pre></div></div>
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">![</span><span class="nv">image-center</span><span class="p">](</span><span class="sx">/assets/images/filename.jpg</span><span class="p">)</span>{: .align-center}
-</code></pre></div></div>
-<p class="notice--warning"><strong>Note:</strong> for technical reasons, <code class="language-plaintext highlighter-rouge">_config.yml</code> is NOT reloaded automatically when used with <code class="language-plaintext highlighter-rouge">jekyll serve</code>. If you make any changes to this file, please restart the server process for them to be applied.</p>
-
-<p>Take a moment to look over the configuration file included with the theme. Comments have been added to provide examples and default values for most settings. Detailed explanations of each can be found below.</p>
-
-<h2 id="site-settings">Site settings</h2>
-
-<h3 id="theme">Theme</h3>]]></content><author><name>Richard Lin</name></author><category term="C++ Concepts" /><category term="C++ Concepts" /><summary type="html"><![CDATA[Pointer Introduce]]></summary></entry></feed>
+Or it can make these as pointers also.</p>]]></content><author><name>Richard Lin</name></author><category term="C++ Concepts" /><category term="C++ Concepts" /><summary type="html"><![CDATA[Parameter Passing Methods]]></summary></entry></feed>

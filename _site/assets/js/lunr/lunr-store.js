@@ -178,4 +178,16 @@ var store = [{
         "tags": ["goal"],
         "url": "/goal/Target/",
         "teaser": null
+      },{
+        "title": "traffic|bathing suit|fridge|tights|trousers",
+        "excerpt":"A2 Key Vocabulary List 2022/12/11 1.traffic        UK /ˈtræf.ɪk/ the number of vehicles moving along roads, or the amount of aircraft, trains, or ships moving along a route. We got stuck in traffic for several hours. 2.bathing suit        UK /ˈbeɪ.ðɪŋ ˌsuːt/ a piece of clothing that you wear for...","categories": ["Vocabulary List A2"],
+        "tags": ["Vocabulary List A2"],
+        "url": "/vocabulary%20list%20a2/English-Word/",
+        "teaser": null
+      },{
+        "title": "WorkOut Record",
+        "excerpt":"2023/01 健身組數紀錄                  日期       活動       重量/次                                               2023/01/07       滑輪背拉       30/10       30/10       30/10       30/10                         硬舉       40/8       40/8       40/8                                 機械推舉       27/10       27/10       27/10       27/10                         槓鈴握推       40/6       40/6       40/6                   ","categories": ["WorkOut"],
+        "tags": ["WorkOut"],
+        "url": "/workout/1%E6%9C%88Workout/",
+        "teaser": null
       },]
