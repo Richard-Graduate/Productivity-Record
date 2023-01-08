@@ -1,4 +1,380 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2022-09-11T22:10:02+08:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Memory Record</title><subtitle>A flexible Jekyll theme for your blog or site with a minimalist aesthetic.</subtitle><author><name>Richard Lin</name></author><entry><title type="html">WorkOut Record</title><link href="http://0.0.0.0:4000/workout/Workout/" rel="alternate" type="text/html" title="WorkOut Record" /><published>2022-09-05T00:00:00+08:00</published><updated>2022-09-05T00:00:00+08:00</updated><id>http://0.0.0.0:4000/workout/Workout</id><content type="html" xml:base="http://0.0.0.0:4000/workout/Workout/"><![CDATA[<h2 id="2022健身組數紀錄">2022健身組數紀錄</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2023-01-08T21:26:26+08:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Memory Record</title><subtitle>A flexible Jekyll theme for your blog or site with a minimalist aesthetic.</subtitle><author><name>Richard Lin</name></author><entry><title type="html">5 years target</title><link href="http://0.0.0.0:4000/goal/Target/" rel="alternate" type="text/html" title="5 years target" /><published>2022-10-19T00:00:00+08:00</published><updated>2022-10-19T00:00:00+08:00</updated><id>http://0.0.0.0:4000/goal/Target</id><content type="html" xml:base="http://0.0.0.0:4000/goal/Target/"><![CDATA[<h2 id="pointer-introduce">Pointer Introduce</h2>
+
+<h4 id="data-variable">Data variable</h4>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>int a = 10;
+</code></pre></div></div>
+<h4 id="address-variable">Address variable</h4>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>int <span class="err">*</span>p;
+p = <span class="ni">&amp;a;</span>
+</code></pre></div></div>
+<p>create a memory space</p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="kt">int</span> <span class="o">*</span><span class="n">p</span><span class="p">;</span>
+<span class="c1">//*C</span>
+    <span class="n">p</span><span class="o">=</span><span class="p">(</span><span class="kt">int</span><span class="o">*</span><span class="p">)</span><span class="n">malloc</span><span class="p">(</span><span class="n">S</span><span class="o">*</span><span class="k">sizeof</span><span class="p">(</span><span class="kt">int</span><span class="p">));</span>
+<span class="c1">//*C++</span>
+    <span class="n">p</span><span class="o">=</span><span class="k">new</span> <span class="kt">int</span><span class="p">[</span><span class="n">S</span><span class="p">];</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="reference-introduce">Reference Introduce</h2>
+<p>Another alias.</p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="kt">int</span> <span class="n">a</span><span class="o">=</span><span class="mi">10</span><span class="p">;</span>
+    <span class="kt">int</span> <span class="o">&amp;</span><span class="n">r</span><span class="o">=</span><span class="n">a</span><span class="p">;</span>
+
+    <span class="kt">int</span> <span class="n">b</span><span class="o">=</span><span class="mi">30</span><span class="p">;</span>
+    <span class="n">r</span><span class="o">=</span><span class="n">b</span><span class="p">;</span>
+    <span class="n">cout</span><span class="o">&lt;&lt;</span> <span class="n">a</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span> <span class="o">&lt;&lt;</span> <span class="n">r</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Ans
+30
+30
+</code></pre></div></div>
+
+<h2 id="pointer-to-a-structure">Pointer to a Structure</h2>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">struct</span> <span class="nc">Rectangle</span>
+<span class="p">{</span>
+    <span class="kt">int</span> <span class="n">length</span><span class="p">;</span>
+    <span class="kt">int</span> <span class="n">breadth</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="kt">int</span> <span class="n">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="k">struct</span> <span class="nc">Rectangle</span> <span class="n">r</span><span class="o">=</span><span class="p">{</span><span class="mi">10</span><span class="p">,</span><span class="mi">5</span><span class="p">};</span>
+    <span class="k">struct</span> <span class="nc">Rectangle</span> <span class="o">*</span><span class="n">p</span> <span class="o">=</span> <span class="o">&amp;</span><span class="n">r</span><span class="p">;</span>
+    
+    <span class="n">r</span><span class="p">.</span><span class="n">length</span><span class="o">=</span><span class="mi">15</span><span class="p">;</span>
+    <span class="c1">//This is wrong because the higher precedence is for DOT operators.</span>
+    <span class="o">*</span><span class="n">p</span><span class="p">.</span><span class="n">length</span><span class="o">=</span><span class="mi">20</span><span class="p">;</span>
+    <span class="c1">///the following codes are right.</span>
+    <span class="p">(</span><span class="o">*</span><span class="n">p</span><span class="p">).</span><span class="n">length</span><span class="o">=</span><span class="mi">20</span><span class="p">;</span>
+    <span class="n">p</span><span class="o">-&gt;</span><span class="n">length</span><span class="o">=</span><span class="mi">20</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kt">int</span> <span class="n">Assign</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="c1">//in the heap memory</span>
+    <span class="k">struct</span> <span class="nc">Rectangle</span> <span class="o">*</span><span class="n">p</span><span class="p">;</span>
+    <span class="c1">//type casting (struct Rectangle*)</span>
+    <span class="n">p</span><span class="o">=</span><span class="p">(</span><span class="k">struct</span> <span class="nc">Rectangle</span><span class="o">*</span><span class="p">)</span><span class="n">malloc</span><span class="p">(</span><span class="k">sizeof</span><span class="p">(</span><span class="k">struct</span> <span class="nc">Rectangle</span><span class="p">));</span>
+    <span class="n">p</span><span class="o">-&gt;</span><span class="n">length</span><span class="o">=</span><span class="mi">20</span><span class="p">;</span>
+    <span class="n">p</span><span class="o">-&gt;</span><span class="n">breadth</span><span class="o">=</span><span class="mi">20</span><span class="p">;</span>
+<span class="p">}</span>
+
+</code></pre></div></div>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Pointers</span>
+<span class="na">foo</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Link</span><span class="nv"> </span><span class="s">1</span><span class="nv"> </span><span class="s">Title"</span>
+    <span class="na">url</span><span class="pi">:</span> <span class="s">/link-1-page-url/</span>
+
+  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Link</span><span class="nv"> </span><span class="s">2</span><span class="nv"> </span><span class="s">Title"</span>
+    <span class="na">url</span><span class="pi">:</span> <span class="s">http://external-link.com</span>
+
+  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Link</span><span class="nv"> </span><span class="s">3</span><span class="nv"> </span><span class="s">Title"</span>
+    <span class="na">url</span><span class="pi">:</span> <span class="s">/link-3-page-url/</span>
+
+  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Link</span><span class="nv"> </span><span class="s">4</span><span class="nv"> </span><span class="s">Title"</span>
+    <span class="na">url</span><span class="pi">:</span> <span class="s">/link-4-page-url/</span>
+</code></pre></div></div>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">![</span><span class="nv">image-center</span><span class="p">](</span><span class="sx">/assets/images/filename.jpg</span><span class="p">)</span>{: .align-center}
+</code></pre></div></div>
+<p class="notice--warning"><strong>Note:</strong> for technical reasons, <code class="language-plaintext highlighter-rouge">_config.yml</code> is NOT reloaded automatically when used with <code class="language-plaintext highlighter-rouge">jekyll serve</code>. If you make any changes to this file, please restart the server process for them to be applied.</p>
+
+<p>Take a moment to look over the configuration file included with the theme. Comments have been added to provide examples and default values for most settings. Detailed explanations of each can be found below.</p>
+
+<h2 id="site-settings">Site settings</h2>
+
+<h3 id="theme">Theme</h3>]]></content><author><name>Richard Lin</name></author><category term="goal" /><category term="goal" /><summary type="html"><![CDATA[Pointer Introduce]]></summary></entry><entry><title type="html">WorkOut Record</title><link href="http://0.0.0.0:4000/workout/10%E6%9C%88Workout/" rel="alternate" type="text/html" title="WorkOut Record" /><published>2022-10-01T00:00:00+08:00</published><updated>2022-10-01T00:00:00+08:00</updated><id>http://0.0.0.0:4000/workout/10%E6%9C%88Workout</id><content type="html" xml:base="http://0.0.0.0:4000/workout/10%E6%9C%88Workout/"><![CDATA[<h2 id="202210-健身組數紀錄">2022/10 健身組數紀錄</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><strong>日期</strong></th>
+      <th style="text-align: center"><strong>活動</strong></th>
+      <th style="text-align: center"><strong>重量/次</strong></th>
+      <th style="text-align: center"> </th>
+      <th style="text-align: center"> </th>
+      <th style="text-align: center"> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><strong>2022/10/01</strong></td>
+      <td style="text-align: center">槓鈴划船</td>
+      <td style="text-align: center">40/10</td>
+      <td style="text-align: center">40/10</td>
+      <td style="text-align: center">40/10</td>
+      <td style="text-align: center">40/10</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">史密斯划船</td>
+      <td style="text-align: center">80/10</td>
+      <td style="text-align: center">80/10</td>
+      <td style="text-align: center">80/10</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">引體向上</td>
+      <td style="text-align: center">80/3</td>
+      <td style="text-align: center">80/3</td>
+      <td style="text-align: center">80/3</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">槓鈴握推</td>
+      <td style="text-align: center">40/8</td>
+      <td style="text-align: center">40/8</td>
+      <td style="text-align: center">40/8</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><strong>2022/10/05</strong></td>
+      <td style="text-align: center">槓鈴划船</td>
+      <td style="text-align: center">40/10</td>
+      <td style="text-align: center">40/9</td>
+      <td style="text-align: center">40/8</td>
+      <td style="text-align: center">40/7</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">坐姿啞鈴推舉</td>
+      <td style="text-align: center">25/10</td>
+      <td style="text-align: center">25/10</td>
+      <td style="text-align: center">25/10</td>
+      <td style="text-align: center">25/10</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">啞鈴側平舉</td>
+      <td style="text-align: center">10/10</td>
+      <td style="text-align: center">10/10</td>
+      <td style="text-align: center">10/10</td>
+      <td style="text-align: center">10/10</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">機械上斜胸</td>
+      <td style="text-align: center">15*10</td>
+      <td style="text-align: center">15*10</td>
+      <td style="text-align: center">15*10</td>
+      <td style="text-align: center">15*10</td>
+    </tr>
+  </tbody>
+</table>
+
+<table><tbody>
+    <tr>
+        <th>方法說明</th><th>顏色名稱</th><th>顏色</th>
+    </tr>
+    <tr>
+        <td><font color="Coral">此處實現方法利用Markdown內嵌html語言的優勢</font>
+        </td>
+        <td><font color="Coral">Coral</font>
+        </td>
+        <td bgcolor="Coral">rgb(255, 127, 80)
+        </td>
+    </tr>
+    <tr>
+        <td><font color="CornflowerBlue">藉助 table, tr, td 等表格標籤的 bgcolor 屬性實現背景色設置</font>
+        </td>
+        <td><font color="CornflowerBlue">AntiqueWhite</font>
+        </td>
+        <td bgcolor="CornflowerBlue">rgb(100, 149, 237)
+        </td>
+    </tr>
+
+
+
+</tbody></table>]]></content><author><name>Richard Lin</name></author><category term="WorkOut" /><category term="WorkOut" /><summary type="html"><![CDATA[2022/10 健身組數紀錄]]></summary></entry><entry><title type="html">Pure Virtual Function</title><link href="http://0.0.0.0:4000/c++%20concepts/C++%E5%8B%95%E6%85%8B%E5%A4%9A%E5%9E%8B-%E8%99%9B%E6%93%AC%E5%87%BD%E5%BC%8F/" rel="alternate" type="text/html" title="Pure Virtual Function" /><published>2022-09-27T00:00:00+08:00</published><updated>2022-09-27T00:00:00+08:00</updated><id>http://0.0.0.0:4000/c++%20concepts/C++%E5%8B%95%E6%85%8B%E5%A4%9A%E5%9E%8B-%E8%99%9B%E6%93%AC%E5%87%BD%E5%BC%8F</id><content type="html" xml:base="http://0.0.0.0:4000/c++%20concepts/C++%E5%8B%95%E6%85%8B%E5%A4%9A%E5%9E%8B-%E8%99%9B%E6%93%AC%E5%87%BD%E5%BC%8F/"><![CDATA[<h2 id="pure-virtual-function">Pure Virtual Function</h2>
+
+<h3 id="introduce">Introduce</h3>
+
+<p>When the function has no definition, we call such functions as “Do-nothing function or Pure virtual function”.<br />
+The declaration of this function happens in the base class with no definition.</p>
+
+<p>有時因為無法知道實作部分，我們無法再基礎類別上進行所有function的實作。<br />
+此時便可以使用這種方法。<br />
+A pure virtual function (or abstract function) in C++ is a virtual function for which we can have implementation</p>
+
+<p>宣告抽象型別</p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// An abstract class</span>
+<span class="k">class</span> <span class="nc">Test</span>
+<span class="p">{</span>  
+    <span class="c1">// Data members of class</span>
+<span class="nl">public:</span>
+    <span class="c1">// Pure Virtual Function</span>
+    <span class="k">virtual</span> <span class="kt">void</span> <span class="n">show</span><span class="p">()</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+   
+   <span class="cm">/* Other members */</span>
+<span class="p">};</span>
+</code></pre></div></div>
+<p>完整範例</p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include</span><span class="cpf">&lt;iostream&gt;</span><span class="cp">
+</span><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+ 
+<span class="k">class</span> <span class="nc">Base</span>
+<span class="p">{</span>
+   <span class="kt">int</span> <span class="n">x</span><span class="p">;</span>
+<span class="nl">public:</span>
+    <span class="k">virtual</span> <span class="kt">void</span> <span class="n">fun</span><span class="p">()</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="kt">int</span> <span class="n">getX</span><span class="p">()</span> <span class="p">{</span> <span class="k">return</span> <span class="n">x</span><span class="p">;</span> <span class="p">}</span>
+<span class="p">};</span>
+ 
+<span class="c1">// This class inherits from Base and implements fun()</span>
+<span class="k">class</span> <span class="nc">Derived</span><span class="o">:</span> <span class="k">public</span> <span class="n">Base</span>
+<span class="p">{</span>
+    <span class="kt">int</span> <span class="n">y</span><span class="p">;</span>
+<span class="nl">public:</span>
+    <span class="kt">void</span> <span class="n">fun</span><span class="p">()</span> <span class="p">{</span> <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"fun() called"</span><span class="p">;</span> <span class="p">}</span>
+<span class="p">};</span>
+ 
+<span class="kt">int</span> <span class="n">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">Derived</span> <span class="n">d</span><span class="p">;</span>
+    <span class="n">d</span><span class="p">.</span><span class="n">fun</span><span class="p">();</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>也可以使用指標和參考來使用抽象型別:</p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include</span><span class="cpf">&lt;iostream&gt;</span><span class="cp">
+</span><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+ 
+<span class="k">class</span> <span class="nc">Base</span>
+<span class="p">{</span>
+<span class="nl">public:</span>
+    <span class="k">virtual</span> <span class="kt">void</span> <span class="n">show</span><span class="p">()</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">};</span>
+ 
+<span class="k">class</span> <span class="nc">Derived</span><span class="o">:</span> <span class="k">public</span> <span class="n">Base</span>
+<span class="p">{</span>
+<span class="nl">public:</span>
+    <span class="kt">void</span> <span class="n">show</span><span class="p">()</span> <span class="p">{</span> <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"In Derived </span><span class="se">\n</span><span class="s">"</span><span class="p">;</span> <span class="p">}</span>
+<span class="p">};</span>
+ 
+<span class="kt">int</span> <span class="n">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">Base</span> <span class="o">*</span><span class="n">bp</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Derived</span><span class="p">();</span>
+    <span class="n">bp</span><span class="o">-&gt;</span><span class="n">show</span><span class="p">();</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>如果沒有在衍生類別上進行override，則此衍生類別會變成抽象類別。<br />
+此時實作會跳出compile error。</p>]]></content><author><name>Richard Lin</name></author><category term="C++ Concepts" /><category term="C++ Concepts" /><summary type="html"><![CDATA[Pure Virtual Function]]></summary></entry><entry><title type="html">Structure as Parameter</title><link href="http://0.0.0.0:4000/c++%20concepts/Structure-as-Parameter/" rel="alternate" type="text/html" title="Structure as Parameter" /><published>2022-09-12T00:00:00+08:00</published><updated>2022-09-12T00:00:00+08:00</updated><id>http://0.0.0.0:4000/c++%20concepts/Structure%20%20as%20Parameter</id><content type="html" xml:base="http://0.0.0.0:4000/c++%20concepts/Structure-as-Parameter/"><![CDATA[<h2 id="parameter-passing-methods">Parameter Passing Methods</h2>
+
+<h3 id="call-by-value">Call By Value</h3>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">struct</span> <span class="nc">Rectangle</span>
+<span class="p">{</span>
+    <span class="kt">int</span> <span class="n">length</span><span class="p">;</span>
+    <span class="kt">int</span> <span class="n">breadth</span><span class="p">;</span>
+<span class="p">};</span>
+
+<span class="kt">void</span> <span class="n">fun</span><span class="p">(</span><span class="k">struct</span> <span class="nc">Rectangle</span> <span class="n">r</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">r</span><span class="p">.</span><span class="n">length</span><span class="o">=</span><span class="mi">20</span><span class="p">;</span>
+    <span class="n">cout</span><span class="o">&lt;&lt;</span><span class="s">"Length"</span><span class="o">&lt;&lt;</span><span class="n">r</span><span class="p">.</span><span class="n">length</span><span class="o">&lt;&lt;</span><span class="n">endl</span><span class="o">&lt;&lt;</span><span class="s">"Breadth"</span><span class="o">&lt;&lt;</span><span class="n">r</span><span class="p">.</span><span class="n">breadth</span><span class="o">&lt;&lt;</span><span class="n">endl</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="k">struct</span> <span class="nc">Rectangle</span> <span class="n">r</span><span class="o">=</span><span class="p">{</span><span class="mi">10</span><span class="p">,</span><span class="mi">5</span><span class="p">};</span>
+    <span class="n">fun</span><span class="p">(</span><span class="n">r</span><span class="p">);</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"Length %d </span><span class="se">\n</span><span class="s">Breadth %d</span><span class="se">\n</span><span class="s">,r.length,r.breadth"</span><span class="p">)</span> <span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>We use <strong>dot operator</strong> for accessing the members and here this is called the value and this is also <strong>variable</strong>.</p>
+
+<h3 id="call-by-address">Call By Address</h3>
+
+<p>Now in <strong>called address</strong> from here we will pass the address of a rectangle.</p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">struct</span> <span class="nc">Rectangle</span>
+<span class="p">{</span>
+    <span class="kt">int</span> <span class="n">length</span><span class="p">;</span>
+    <span class="kt">int</span> <span class="n">breadth</span><span class="p">;</span>
+<span class="p">};</span>
+
+<span class="kt">void</span> <span class="n">fun</span><span class="p">(</span><span class="k">struct</span> <span class="nc">Rectangle</span> <span class="o">*</span><span class="n">r</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">r</span><span class="o">-&gt;</span><span class="n">length</span><span class="o">=</span><span class="mi">20</span><span class="p">;</span>
+    <span class="n">cout</span><span class="o">&lt;&lt;</span><span class="s">"Length"</span><span class="o">&lt;&lt;</span><span class="n">r</span><span class="o">-&gt;</span><span class="n">length</span><span class="o">&lt;&lt;</span><span class="n">endl</span><span class="o">&lt;&lt;</span><span class="s">"Breadth"</span><span class="o">&lt;&lt;</span><span class="n">r</span><span class="o">-&gt;</span><span class="n">breadth</span><span class="o">&lt;&lt;</span><span class="n">endl</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="k">struct</span> <span class="nc">Rectangle</span> <span class="n">r</span><span class="o">=</span><span class="p">{</span><span class="mi">10</span><span class="p">,</span><span class="mi">5</span><span class="p">};</span>
+    <span class="n">fun</span><span class="p">(</span><span class="o">&amp;</span><span class="n">r</span><span class="p">);</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"Length %d </span><span class="se">\n</span><span class="s">Breadth %d</span><span class="se">\n</span><span class="s">,r.length,r.breadth"</span><span class="p">)</span> <span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Length20
+Breadth5
+Length 20
+Breadth 5
+</code></pre></div></div>
+<h3 id="returning-the-address-of-structure">Returning the Address of Structure</h3>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">struct</span> <span class="nc">Rectangle</span>
+<span class="p">{</span>
+    <span class="kt">int</span> <span class="n">length</span><span class="p">;</span>
+    <span class="kt">int</span> <span class="n">breadth</span><span class="p">;</span>
+<span class="p">};</span>
+
+<span class="kt">void</span> <span class="n">fun</span><span class="p">(</span><span class="k">struct</span> <span class="nc">Rectangle</span> <span class="n">r</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">struct</span> <span class="nc">Rectangle</span> <span class="o">*</span><span class="n">p</span><span class="p">;</span>
+    <span class="n">p</span><span class="o">=</span><span class="k">new</span> <span class="n">Rectangle</span><span class="p">;</span>
+    <span class="c1">//p=(struct Rectangle *)malloc(sizeof(struct Rectangle));</span>
+    <span class="n">p</span><span class="o">-&gt;</span><span class="n">length</span><span class="o">=</span><span class="mi">15</span><span class="p">;</span>
+    <span class="n">p</span><span class="o">-&gt;</span><span class="n">breadth</span><span class="o">=</span><span class="mi">7</span><span class="p">;</span>
+
+    <span class="k">return</span> <span class="n">p</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>So this is structure object is created in <strong>Heap</strong> and its address is written by this function inside.</p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="k">struct</span> <span class="nc">Rectangle</span> <span class="o">*</span><span class="n">ptr</span><span class="o">=</span><span class="n">fun</span><span class="p">();</span>  
+
+    <span class="n">cout</span><span class="o">&lt;&lt;</span><span class="s">"Length"</span><span class="o">&lt;&lt;</span><span class="n">ptr</span><span class="o">-&gt;</span><span class="n">length</span><span class="o">&lt;&lt;</span><span class="n">endl</span><span class="o">&lt;&lt;</span><span class="s">"Breadth"</span><span class="o">&lt;&lt;</span><span class="n">ptr</span><span class="o">-&gt;</span><span class="n">breadth</span><span class="o">&lt;&lt;</span><span class="n">endl</span><span class="p">;</span>
+
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Length 15
+Breadth 7
+</code></pre></div></div>
+<p>So this program is demonstrating how function can return a <strong>pointer</strong> to an object created in a heap,<br />
+ and that can be accessed using <strong>main function</strong> also it can be accessed by any function of that point.</p>]]></content><author><name>Richard Lin</name></author><category term="C++ Concepts" /><category term="C++ Concepts" /><summary type="html"><![CDATA[Parameter Passing Methods]]></summary></entry><entry><title type="html">Workout book report</title><link href="http://0.0.0.0:4000/workout/Workout-book-report/" rel="alternate" type="text/html" title="Workout book report" /><published>2022-09-05T00:00:00+08:00</published><updated>2022-09-05T00:00:00+08:00</updated><id>http://0.0.0.0:4000/workout/Workout%20book%20report</id><content type="html" xml:base="http://0.0.0.0:4000/workout/Workout-book-report/"><![CDATA[<h2 id="理論">理論</h2>
+
+<h3 id="頻率">頻率</h3>
+<ul>
+  <li>效果最佳頻率為各部位肌肉群每周訓練二至三次，每次間隔一至二天。</li>
+  <li>初學者以各部位肌肉群<strong>一周鍛鍊二至三次</strong>的全身訓練菜單為主流。</li>
+  <li>各肌肉群『6 to 10 → 8 to 15 → 10 to 20 』逐步進階。</li>
+  <li>以八下為起點，12下為目標，8至12次，可穩定做完12下，換下一重量。 <em>–理論5</em></li>
+  <li>有效次數為最後五下，且在每組最後，保留一至二下的剩餘力量，效果比練到極限更好。</li>
+</ul>
+
+<h3 id="姿勢">姿勢</h3>
+<p>以多關節項目為主。<em>–理論8</em></p>
+<ul>
+  <li>使用到要鍛鍊的目標肌肉。</li>
+  <li>採取最大關節活動範圍。</li>
+  <li>能用意志控制負重物的軌道。</li>
+  <li>做動作時部會感到疼痛。</li>
+  <li>以一倍的時間舉起動作，約一點五倍時間放下。<em>–理論9</em></li>
+  <li>訓練前後不需做靜態伸展，以動態伸展為主。<em>–理論13</em></li>
+</ul>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>First Number 15
+Second Number 10
+</code></pre></div></div>]]></content><author><name>Richard Lin</name></author><category term="WorkOut" /><category term="WorkOut" /><summary type="html"><![CDATA[理論]]></summary></entry><entry><title type="html">WorkOut Record</title><link href="http://0.0.0.0:4000/workout/9%E6%9C%88Workout/" rel="alternate" type="text/html" title="WorkOut Record" /><published>2022-09-05T00:00:00+08:00</published><updated>2022-09-05T00:00:00+08:00</updated><id>http://0.0.0.0:4000/workout/9%E6%9C%88Workout</id><content type="html" xml:base="http://0.0.0.0:4000/workout/9%E6%9C%88Workout/"><![CDATA[<h2 id="20229-健身組數紀錄">2022/9 健身組數紀錄</h2>
 
 <table>
   <thead>
@@ -6,6 +382,7 @@
       <th style="text-align: center"><strong>Date</strong></th>
       <th style="text-align: center"><strong>Item</strong></th>
       <th style="text-align: center"><strong>Weight</strong></th>
+      <th style="text-align: center"> </th>
       <th style="text-align: center"> </th>
       <th style="text-align: center"> </th>
       <th style="text-align: center"> </th>
@@ -19,12 +396,14 @@
       <td style="text-align: center">35/8</td>
       <td style="text-align: center">35/8</td>
       <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
     </tr>
     <tr>
       <td style="text-align: center"> </td>
       <td style="text-align: center">引體向上</td>
       <td style="text-align: center"> </td>
       <td style="text-align: center">3</td>
+      <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
     </tr>
@@ -35,6 +414,7 @@
       <td style="text-align: center">50/9</td>
       <td style="text-align: center">50/10</td>
       <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
     </tr>
     <tr>
       <td style="text-align: center"> </td>
@@ -43,8 +423,10 @@
       <td style="text-align: center">26/12</td>
       <td style="text-align: center">26/12</td>
       <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
     </tr>
     <tr>
+      <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
@@ -59,6 +441,7 @@
       <td style="text-align: center">60/8</td>
       <td style="text-align: center">70/8</td>
       <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
     </tr>
     <tr>
       <td style="text-align: center"> </td>
@@ -66,6 +449,7 @@
       <td style="text-align: center">30*8</td>
       <td style="text-align: center">30*8</td>
       <td style="text-align: center">30*8</td>
+      <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
     </tr>
     <tr>
@@ -75,6 +459,7 @@
       <td style="text-align: center">30*8</td>
       <td style="text-align: center">30*8</td>
       <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
     </tr>
     <tr>
       <td style="text-align: center"> </td>
@@ -83,8 +468,10 @@
       <td style="text-align: center">40*8</td>
       <td style="text-align: center">40*8</td>
       <td style="text-align: center">35*8</td>
+      <td style="text-align: center"> </td>
     </tr>
     <tr>
+      <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
@@ -99,15 +486,15 @@
       <td style="text-align: center">50/8</td>
       <td style="text-align: center">50/8</td>
       <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
     </tr>
-  </tbody>
-  <tbody>
     <tr>
       <td style="text-align: center"> </td>
       <td style="text-align: center">硬舉</td>
       <td style="text-align: center">40*8</td>
       <td style="text-align: center">40*8</td>
       <td style="text-align: center">40*8</td>
+      <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
     </tr>
     <tr>
@@ -117,6 +504,7 @@
       <td style="text-align: center">40*8</td>
       <td style="text-align: center">40*8</td>
       <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
     </tr>
     <tr>
       <td style="text-align: center"> </td>
@@ -125,6 +513,7 @@
       <td style="text-align: center">40*8</td>
       <td style="text-align: center">40*8</td>
       <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
     </tr>
     <tr>
       <td style="text-align: center"> </td>
@@ -132,6 +521,268 @@
       <td style="text-align: center">18*12</td>
       <td style="text-align: center">18*12</td>
       <td style="text-align: center">18*12</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><strong>2022/09/13</strong></td>
+      <td style="text-align: center">深蹲</td>
+      <td style="text-align: center">50/8</td>
+      <td style="text-align: center">50/8</td>
+      <td style="text-align: center">50/8</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">硬舉</td>
+      <td style="text-align: center">40*8</td>
+      <td style="text-align: center">40*8</td>
+      <td style="text-align: center">40*8</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">槓鈴划船</td>
+      <td style="text-align: center">40*8</td>
+      <td style="text-align: center">40*8</td>
+      <td style="text-align: center">40*8</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">啞鈴握推</td>
+      <td style="text-align: center">40*12</td>
+      <td style="text-align: center">40*8</td>
+      <td style="text-align: center">40*8</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">引體向上</td>
+      <td style="text-align: center">17.6*5</td>
+      <td style="text-align: center">25*5</td>
+      <td style="text-align: center">43*6</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><strong>2022/09/16</strong></td>
+      <td style="text-align: center">單腳RDL</td>
+      <td style="text-align: center">5*12</td>
+      <td style="text-align: center">5*12</td>
+      <td style="text-align: center">5*12</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">槓鈴划船</td>
+      <td style="text-align: center">40*8</td>
+      <td style="text-align: center">40*8</td>
+      <td style="text-align: center">40*8</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">硬舉</td>
+      <td style="text-align: center">40*8</td>
+      <td style="text-align: center">40*8</td>
+      <td style="text-align: center">40*8</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><strong>2022/09/20</strong></td>
+      <td style="text-align: center">深蹲</td>
+      <td style="text-align: center">50/10</td>
+      <td style="text-align: center">50/10</td>
+      <td style="text-align: center">50/8</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">硬舉</td>
+      <td style="text-align: center">40*12</td>
+      <td style="text-align: center">40*12</td>
+      <td style="text-align: center">40*12</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">槓鈴划船</td>
+      <td style="text-align: center">50*8</td>
+      <td style="text-align: center">50*8</td>
+      <td style="text-align: center">40*8</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">啞鈴握推</td>
+      <td style="text-align: center">40*12</td>
+      <td style="text-align: center">40*9</td>
+      <td style="text-align: center">40*8</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">滑輪下拉</td>
+      <td style="text-align: center">23*12</td>
+      <td style="text-align: center">23*12</td>
+      <td style="text-align: center">23*12</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><strong>2022/09/22</strong></td>
+      <td style="text-align: center">深蹲</td>
+      <td style="text-align: center">50/12</td>
+      <td style="text-align: center">70/8</td>
+      <td style="text-align: center">70/6</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">硬舉</td>
+      <td style="text-align: center">40*12</td>
+      <td style="text-align: center">40*12</td>
+      <td style="text-align: center">40*12</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">槓鈴划船</td>
+      <td style="text-align: center">40*8</td>
+      <td style="text-align: center">40*8</td>
+      <td style="text-align: center">40*8</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">槓鈴握推</td>
+      <td style="text-align: center">40*8</td>
+      <td style="text-align: center">40*8</td>
+      <td style="text-align: center">40*8</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><strong>2022/09/26</strong></td>
+      <td style="text-align: center">深蹲</td>
+      <td style="text-align: center">50/8</td>
+      <td style="text-align: center">70/8</td>
+      <td style="text-align: center">70/8</td>
+      <td style="text-align: center">70/8</td>
+      <td style="text-align: center">70/5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">硬舉</td>
+      <td style="text-align: center">50*12</td>
+      <td style="text-align: center">50*12</td>
+      <td style="text-align: center">50*12</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">槓鈴划船</td>
+      <td style="text-align: center">40*12</td>
+      <td style="text-align: center">40*10</td>
+      <td style="text-align: center">40*9</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">槓鈴握推</td>
+      <td style="text-align: center">40*8</td>
+      <td style="text-align: center">40*8</td>
+      <td style="text-align: center">40*8</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><strong>2022/09/29</strong></td>
+      <td style="text-align: center">深蹲</td>
+      <td style="text-align: center">50/8</td>
+      <td style="text-align: center">70/8</td>
+      <td style="text-align: center">70/8</td>
+      <td style="text-align: center">70/8</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">硬舉</td>
+      <td style="text-align: center">50*10</td>
+      <td style="text-align: center">50*10</td>
+      <td style="text-align: center">50*10</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">槓鈴握推</td>
+      <td style="text-align: center">50*5</td>
+      <td style="text-align: center">40*8</td>
+      <td style="text-align: center">40*8</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">滑輪下拉(樓下)</td>
+      <td style="text-align: center">21.5*12</td>
+      <td style="text-align: center">21.5*12</td>
+      <td style="text-align: center">21.5*12</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">槓鈴划船</td>
+      <td style="text-align: center">50*6</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
     </tr>
   </tbody>
@@ -160,31 +811,7 @@
 
 
 
-</tbody></table>]]></content><author><name>Richard Lin</name></author><category term="WorkOut" /><category term="WorkOut" /><summary type="html"><![CDATA[2022健身組數紀錄]]></summary></entry><entry><title type="html">Workout book report</title><link href="http://0.0.0.0:4000/workout/Workout-book-report/" rel="alternate" type="text/html" title="Workout book report" /><published>2022-09-05T00:00:00+08:00</published><updated>2022-09-05T00:00:00+08:00</updated><id>http://0.0.0.0:4000/workout/Workout%20book%20report</id><content type="html" xml:base="http://0.0.0.0:4000/workout/Workout-book-report/"><![CDATA[<h2 id="理論">理論</h2>
-
-<h3 id="頻率">頻率</h3>
-<ul>
-  <li>效果最佳頻率為各部位肌肉群每周訓練二至三次，每次間隔一至二天。</li>
-  <li>初學者以各部位肌肉群<strong>一周鍛鍊二至三次</strong>的全身訓練菜單為主流。</li>
-  <li>各肌肉群『6 to 10 → 8 to 15 → 10 to 20 』逐步進階。</li>
-  <li>以八下為起點，12下為目標，8至12次，可穩定做完12下，換下一重量。 <em>–理論5</em></li>
-  <li>有效次數為最後五下，且在每組最後，保留一至二下的剩餘力量，效果比練到極限更好。</li>
-</ul>
-
-<h3 id="姿勢">姿勢</h3>
-<p>以多關節項目為主。<em>–理論8</em></p>
-<ul>
-  <li>使用到要鍛鍊的目標肌肉。</li>
-  <li>採取最大關節活動範圍。</li>
-  <li>能用意志控制負重物的軌道。</li>
-  <li>做動作時部會感到疼痛。</li>
-  <li>以一倍的時間舉起動作，約一點五倍時間放下。<em>–理論9</em></li>
-  <li>訓練前後不需做靜態伸展，以動態伸展為主。<em>–理論13</em>
-    <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>First Number 15
-Second Number 10
-</code></pre></div>    </div>
-  </li>
-</ul>]]></content><author><name>Richard Lin</name></author><category term="WorkOut" /><category term="WorkOut" /><summary type="html"><![CDATA[理論]]></summary></entry><entry><title type="html">Array</title><link href="http://0.0.0.0:4000/c++%20concepts/C++Array/" rel="alternate" type="text/html" title="Array" /><published>2022-08-27T00:00:00+08:00</published><updated>2022-08-27T00:00:00+08:00</updated><id>http://0.0.0.0:4000/c++%20concepts/C++Array</id><content type="html" xml:base="http://0.0.0.0:4000/c++%20concepts/C++Array/"><![CDATA[<h2 id="introduce-array-as-parameter">Introduce Array as Parameter</h2>
+</tbody></table>]]></content><author><name>Richard Lin</name></author><category term="WorkOut" /><category term="WorkOut" /><summary type="html"><![CDATA[2022/9 健身組數紀錄]]></summary></entry><entry><title type="html">Array</title><link href="http://0.0.0.0:4000/c++%20concepts/C++Array/" rel="alternate" type="text/html" title="Array" /><published>2022-08-27T00:00:00+08:00</published><updated>2022-08-27T00:00:00+08:00</updated><id>http://0.0.0.0:4000/c++%20concepts/C++Array</id><content type="html" xml:base="http://0.0.0.0:4000/c++%20concepts/C++Array/"><![CDATA[<h2 id="introduce-array-as-parameter">Introduce Array as Parameter</h2>
 
 <h4 id="array-as-parameter">Array as Parameter</h4>
 <p>We have to mention <strong>empty brackets</strong>.<br />
@@ -219,7 +846,12 @@ So this <strong>A</strong> is actually like a pointer to an area.</p>
 <div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="o">*</span><span class="nf">fun</span><span class="p">(</span><span class="kt">int</span> <span class="n">n</span><span class="p">)</span>
 <span class="p">{</span>
     <span class="kt">int</span> <span class="o">*</span><span class="n">p</span><span class="p">;</span>
-    <span class="n">p</span><span class="o">=</span><span class="p">(</span><span class="kt">int</span> <span class="o">*</span><span class="p">)</span><span class="n">malloc</span><span class="p">(</span><span class="n">n</span><span class="o">*</span><span class="k">sizeof</span><span class="p">(</span><span class="kt">int</span><span class="p">));</span>
+    <span class="n">p</span><span class="o">=</span><span class="p">(</span><span class="kt">int</span> <span class="o">*</span><span class="p">)</span><span class="n">malloc</span><span class="p">(</span><span class="n">n</span><span class="o">*</span><span class="k">sizeof</span><span class="p">(</span><span class="kt">int</span><span class="p">));</span>    <span class="err">\\</span><span class="n">C</span> <span class="n">Style</span>
+    <span class="n">p</span><span class="o">=</span><span class="k">new</span> <span class="kt">int</span><span class="p">[</span><span class="n">size</span><span class="p">];</span>                   <span class="err">\\</span><span class="n">C</span><span class="o">++</span> <span class="n">Style</span>
+    <span class="k">for</span><span class="p">(</span><span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="n">i</span><span class="o">&lt;</span><span class="n">size</span><span class="p">;</span><span class="n">i</span><span class="o">++&gt;</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">p</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">=</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">;</span>
+    <span class="p">}</span>
     <span class="k">return</span><span class="p">(</span><span class="n">p</span><span class="p">);</span>
 <span class="p">}</span>
 </code></pre></div></div>
@@ -229,7 +861,10 @@ So this <strong>A</strong> is actually like a pointer to an area.</p>
     <span class="n">A</span><span class="o">=</span><span class="n">fun</span><span class="p">(</span><span class="mi">5</span><span class="p">);</span>
 <span class="p">}</span>
 </code></pre></div></div>
-<p><img src="/assets/images/array.jpg" alt="icon" /></p>]]></content><author><name>Richard Lin</name></author><category term="C++ Concepts" /><category term="C++ Concepts" /><summary type="html"><![CDATA[Introduce Array as Parameter]]></summary></entry><entry><title type="html">Parameter Passing Methods</title><link href="http://0.0.0.0:4000/c++%20concepts/Parameter-Passing-Methods/" rel="alternate" type="text/html" title="Parameter Passing Methods" /><published>2022-08-27T00:00:00+08:00</published><updated>2022-08-27T00:00:00+08:00</updated><id>http://0.0.0.0:4000/c++%20concepts/Parameter%20Passing%20Methods</id><content type="html" xml:base="http://0.0.0.0:4000/c++%20concepts/Parameter-Passing-Methods/"><![CDATA[<h2 id="parameter-passing-methods">Parameter Passing Methods</h2>
+<p>Inside the main function,there is no array.Array is not there.
+Here it is creating an array and also initializing all the elements.</p>
+
+<p><img src="https://i.imgur.com/z54lkmq.jpg" title="source: imgur.com" height="50%" width="50%" /></p>]]></content><author><name>Richard Lin</name></author><category term="C++ Concepts" /><category term="C++ Concepts" /><summary type="html"><![CDATA[Introduce Array as Parameter]]></summary></entry><entry><title type="html">Parameter Passing Methods</title><link href="http://0.0.0.0:4000/c++%20concepts/Parameter-Passing-Methods/" rel="alternate" type="text/html" title="Parameter Passing Methods" /><published>2022-08-27T00:00:00+08:00</published><updated>2022-08-27T00:00:00+08:00</updated><id>http://0.0.0.0:4000/c++%20concepts/Parameter%20Passing%20Methods</id><content type="html" xml:base="http://0.0.0.0:4000/c++%20concepts/Parameter-Passing-Methods/"><![CDATA[<h2 id="parameter-passing-methods">Parameter Passing Methods</h2>
 
 <h3 id="call-by-value">Call By Value</h3>
 <div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">add</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">,</span><span class="kt">int</span> <span class="n">b</span><span class="p">)</span>
@@ -331,7 +966,7 @@ p = <span class="ni">&amp;a;</span>
 </code></pre></div></div>
 
 <h2 id="reference-introduce">Reference Introduce</h2>
-<p>另一個別名(alias)</p>
+<p>Another alias.</p>
 <div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
 <span class="p">{</span>
     <span class="kt">int</span> <span class="n">a</span><span class="o">=</span><span class="mi">10</span><span class="p">;</span>

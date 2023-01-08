@@ -120,13 +120,13 @@ var store = [{
         "teaser": null
       },{
         "title": "License",
-        "excerpt":"The MIT License (MIT) Copyright (c) 2013-2022 Michael Rose and contributors Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge,...","categories": [],
+        "excerpt":"The MIT License (MIT) Copyright (c) 2013-2023 Michael Rose and contributors Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge,...","categories": [],
         "tags": [],
         "url": "/docs/license/",
         "teaser": null
       },{
         "title": "Pointer & Reference",
-        "excerpt":"Pointer Introduce Data variable int a = 10; Address variable int *p; p = &amp;a; create a memory space int main() { int *p; //*C p=(int*)malloc(S*sizeof(int)); //*C++ p=new int[S]; } Reference Introduce 另一個別名(alias) int main() { int a=10; int &amp;r=a; int b=30; r=b; cout&lt;&lt; a &lt;&lt; endl &lt;&lt; r &lt;&lt;...","categories": ["C++ Concepts"],
+        "excerpt":"Pointer Introduce Data variable int a = 10; Address variable int *p; p = &amp;a; create a memory space int main() { int *p; //*C p=(int*)malloc(S*sizeof(int)); //*C++ p=new int[S]; } Reference Introduce Another alias. int main() { int a=10; int &amp;r=a; int b=30; r=b; cout&lt;&lt; a &lt;&lt; endl &lt;&lt; r...","categories": ["C++ Concepts"],
         "tags": ["C++ Concepts"],
         "url": "/c++%20concepts/C++Pointer/",
         "teaser": null
@@ -143,15 +143,39 @@ var store = [{
         "url": "/c++%20concepts/Parameter-Passing-Methods/",
         "teaser": null
       },{
+        "title": "WorkOut Record",
+        "excerpt":"2022/9 健身組數紀錄 Date Item Weight         2022/09/05 啞鈴握推 35/8 35/8 35/8       引體向上   3         硬舉 50/8 50/9 50/10       滑輪下拉 26/12 26/12 26/12                   2022/09/09 深蹲 40/8 60/8 70/8  ...","categories": ["WorkOut"],
+        "tags": ["WorkOut"],
+        "url": "/workout/9%E6%9C%88Workout/",
+        "teaser": null
+      },{
         "title": "Workout book report",
-        "excerpt":"理論   頻率     效果最佳頻率為各部位肌肉群每周訓練二至三次，每次間隔一至二天。   初學者以各部位肌肉群一周鍛鍊二至三次的全身訓練菜單為主流。   各肌肉群『6 to 10 → 8 to 15 → 10 to 20 』逐步進階。   以八下為起點，12下為目標，8至12次，可穩定做完12下，換下一重量。 –理論5   有效次數為最後五下，且在每組最後，保留一至二下的剩餘力量，效果比練到極限更好。   姿勢  以多關節項目為主。–理論8     使用到要鍛鍊的目標肌肉。   採取最大關節活動範圍。   能用意志控制負重物的軌道。   做動作時部會感到疼痛。   以一倍的時間舉起動作，約一點五倍時間放下。–理論9   訓練前後不需做靜態伸展，以動態伸展為主。–理論13     First Number 15 Second Number 10          ","categories": ["WorkOut"],
+        "excerpt":"理論   頻率     效果最佳頻率為各部位肌肉群每周訓練二至三次，每次間隔一至二天。   初學者以各部位肌肉群一周鍛鍊二至三次的全身訓練菜單為主流。   各肌肉群『6 to 10 → 8 to 15 → 10 to 20 』逐步進階。   以八下為起點，12下為目標，8至12次，可穩定做完12下，換下一重量。 –理論5   有效次數為最後五下，且在每組最後，保留一至二下的剩餘力量，效果比練到極限更好。   姿勢  以多關節項目為主。–理論8     使用到要鍛鍊的目標肌肉。   採取最大關節活動範圍。   能用意志控制負重物的軌道。   做動作時部會感到疼痛。   以一倍的時間舉起動作，約一點五倍時間放下。–理論9   訓練前後不需做靜態伸展，以動態伸展為主。–理論13   First Number 15 Second Number 10  ","categories": ["WorkOut"],
         "tags": ["WorkOut"],
         "url": "/workout/Workout-book-report/",
         "teaser": null
       },{
+        "title": "Structure  as Parameter",
+        "excerpt":"Parameter Passing Methods Call By Value struct Rectangle { int length; int breadth; }; void fun(struct Rectangle r) { r.length=20; cout&lt;&lt;\"Length\"&lt;&lt;r.length&lt;&lt;endl&lt;&lt;\"Breadth\"&lt;&lt;r.breadth&lt;&lt;endl; } int main() { struct Rectangle r={10,5}; fun(r); printf(\"Length %d \\nBreadth %d\\n,r.length,r.breadth\") ; } We use dot operator for accessing the members and here this is called the value...","categories": ["C++ Concepts"],
+        "tags": ["C++ Concepts"],
+        "url": "/c++%20concepts/Structure-as-Parameter/",
+        "teaser": null
+      },{
+        "title": "Pure Virtual Function",
+        "excerpt":"Pure Virtual Function Introduce When the function has no definition, we call such functions as “Do-nothing function or Pure virtual function”. The declaration of this function happens in the base class with no definition. 有時因為無法知道實作部分，我們無法再基礎類別上進行所有function的實作。 此時便可以使用這種方法。 A pure virtual function (or abstract function) in C++ is a virtual function for...","categories": ["C++ Concepts"],
+        "tags": ["C++ Concepts"],
+        "url": "/c++%20concepts/C++%E5%8B%95%E6%85%8B%E5%A4%9A%E5%9E%8B-%E8%99%9B%E6%93%AC%E5%87%BD%E5%BC%8F/",
+        "teaser": null
+      },{
         "title": "WorkOut Record",
-        "excerpt":"2022健身組數紀錄 Date Item Weight       2022/09/05 啞鈴握推 35/8 35/8 35/8     引體向上   3       硬舉 50/8 50/9 50/10     滑輪下拉 26/12 26/12 26/12               2022/09/09 深蹲 40/8 60/8 70/8     硬舉 30*8 30*8 30*8    ...","categories": ["WorkOut"],
+        "excerpt":"2022/10 健身組數紀錄 日期 活動 重量/次       2022/10/01 槓鈴划船 40/10 40/10 40/10 40/10   史密斯划船 80/10 80/10 80/10     引體向上 80/3 80/3 80/3     槓鈴握推 40/8 40/8 40/8   2022/10/05 槓鈴划船 40/10 40/9 40/8 40/7   坐姿啞鈴推舉 25/10 25/10 25/10 25/10   啞鈴側平舉 10/10 10/10 10/10 10/10...","categories": ["WorkOut"],
         "tags": ["WorkOut"],
-        "url": "/workout/Workout/",
+        "url": "/workout/10%E6%9C%88Workout/",
+        "teaser": null
+      },{
+        "title": "5 years target",
+        "excerpt":"Pointer Introduce Data variable int a = 10; Address variable int *p; p = &amp;a; create a memory space int main() { int *p; //*C p=(int*)malloc(S*sizeof(int)); //*C++ p=new int[S]; } Reference Introduce Another alias. int main() { int a=10; int &amp;r=a; int b=30; r=b; cout&lt;&lt; a &lt;&lt; endl &lt;&lt; r...","categories": ["goal"],
+        "tags": ["goal"],
+        "url": "/goal/Target/",
         "teaser": null
       },]
