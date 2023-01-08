@@ -179,7 +179,7 @@ var store = [{
         "url": "/goal/Target/",
         "teaser": null
       },{
-        "title": "traffic|bathing suit|fridge|tights|trousers",
+        "title": "traffic bathing suit fridge tights trousers",
         "excerpt":"A2 Key Vocabulary List 2022/12/11 1.traffic        UK /ˈtræf.ɪk/ the number of vehicles moving along roads, or the amount of aircraft, trains, or ships moving along a route. We got stuck in traffic for several hours. 2.bathing suit        UK /ˈbeɪ.ðɪŋ ˌsuːt/ a piece of clothing that you wear for...","categories": ["Vocabulary List A2"],
         "tags": ["Vocabulary List A2"],
         "url": "/vocabulary%20list%20a2/English-Word/",
