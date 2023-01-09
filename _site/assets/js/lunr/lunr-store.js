@@ -185,6 +185,18 @@ var store = [{
         "url": "/vocabulary%20list%20a2/English-Word/",
         "teaser": null
       },{
+        "title": "pale envelope magazine diploma bookshelf",
+        "excerpt":"A2 Key Vocabulary List 2022/12/12 1.pale        UK /peɪl/ used to describe a person’s face or skin if it has less colour than usual You're looking pale - are you feeling well? 2.envelope        UK /ˈen.və.ləʊp/ a flat, usually square or rectangular, paper container for a letter I folded the...","categories": ["Vocabulary List A2"],
+        "tags": ["Vocabulary List A2"],
+        "url": "/vocabulary%20list%20a2/English-Word/",
+        "teaser": null
+      },{
+        "title": "clever rubber advertisement surname biscuit",
+        "excerpt":"A2 Key Vocabulary List 2022/12/13 1.clever        UK /ˈklev.ər/ having or showing the ability to learn and understand things quickly and easily Judy has never been very clever, but she tries hard. 2.rubber        UK /ˈrʌb.ər/ an elastic substance (= that stretches) made either from the juice of particular tropical...","categories": ["Vocabulary List A2"],
+        "tags": ["Vocabulary List A2"],
+        "url": "/vocabulary%20list%20a2/English-Word/",
+        "teaser": null
+      },{
         "title": "WorkOut Record",
         "excerpt":"2023/01 健身組數紀錄                  日期       活動       重量/次                                               2023/01/07       滑輪背拉       30/10       30/10       30/10       30/10                         硬舉       40/8       40/8       40/8                                 機械推舉       27/10       27/10       27/10       27/10                         槓鈴握推       40/6       40/6       40/6                   ","categories": ["WorkOut"],
         "tags": ["WorkOut"],

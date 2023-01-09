@@ -1,0 +1,44 @@
+---
+title: "pale envelope magazine diploma bookshelf"
+categories:
+  - Vocabulary List A2
+tags:
+  - Vocabulary List A2
+---
+## A2 Key Vocabulary List 
+
+###### 2022/12/12
+## 1.pale &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     
+[UK  /peɪl/](https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/pale)
+
+used to describe a person's face or skin if it has less colour than usual
+{: .notice--warning}
+`You're looking pale - are you feeling well?` 
+## 2.envelope &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     
+
+[UK  /ˈen.və.ləʊp/](https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/envelope)
+
+a flat, usually square or rectangular, paper container for a letter
+{: .notice--warning}
+`I folded the letter in half and put it in an envelope.` 
+## 3.magazine &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     
+
+[UK  /ˌmæɡ.əˈziːn/](https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/magazine)
+
+a type of thin book with large pages and a paper cover that contains articles and photographs and is published every week or month
+{: .notice--warning}
+`She has written articles for several women's magazines.` 
+## 4.diploma &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     
+
+[UK  /dɪˈpləʊ.mə/](https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/diploma)
+
+a document given by a college or university to show that you have passed a particular exam or finished your studies
+{: .notice--warning}
+`She is talking a diploma in management studies.` 
+## 5.bookshelf &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     
+
+[UK  /ˈtraʊ.zəz/](https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/bookshelf)
+
+a shelf in a bookcase
+{: .notice--warning}
+`All those who consider themselves scientists should have a set on their own bookshelf for reference purposes.` 
