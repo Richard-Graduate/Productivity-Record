@@ -182,23 +182,53 @@ var store = [{
         "title": "traffic bathing suit fridge tights trousers",
         "excerpt":"A2 Key Vocabulary List 2022/12/11 1.traffic        UK /ˈtræf.ɪk/ the number of vehicles moving along roads, or the amount of aircraft, trains, or ships moving along a route. We got stuck in traffic for several hours. 2.bathing suit        UK /ˈbeɪ.ðɪŋ ˌsuːt/ a piece of clothing that you wear for...","categories": ["Vocabulary List A2"],
         "tags": ["Vocabulary List A2"],
-        "url": "/vocabulary%20list%20a2/English-Word/",
+        "url": "/vocabulary%20list%20a2/English-Word1211/",
         "teaser": null
       },{
         "title": "pale envelope magazine diploma bookshelf",
         "excerpt":"A2 Key Vocabulary List 2022/12/12 1.pale        UK /peɪl/ used to describe a person’s face or skin if it has less colour than usual You're looking pale - are you feeling well? 2.envelope        UK /ˈen.və.ləʊp/ a flat, usually square or rectangular, paper container for a letter I folded the...","categories": ["Vocabulary List A2"],
         "tags": ["Vocabulary List A2"],
-        "url": "/vocabulary%20list%20a2/English-Word/",
+        "url": "/vocabulary%20list%20a2/English-Word1212/",
         "teaser": null
       },{
         "title": "clever rubber advertisement surname biscuit",
         "excerpt":"A2 Key Vocabulary List 2022/12/13 1.clever        UK /ˈklev.ər/ having or showing the ability to learn and understand things quickly and easily Judy has never been very clever, but she tries hard. 2.rubber        UK /ˈrʌb.ər/ an elastic substance (= that stretches) made either from the juice of particular tropical...","categories": ["Vocabulary List A2"],
         "tags": ["Vocabulary List A2"],
-        "url": "/vocabulary%20list%20a2/English-Word/",
+        "url": "/vocabulary%20list%20a2/English-Word1213/",
+        "teaser": null
+      },{
+        "title": "lemonade melon omelette cereal ambulance",
+        "excerpt":"A2 Key Vocabulary List 2022/12/14 1.lemonade        UK /ˌlem.əˈneɪd/ a drink made with the juice of lemons, water, and sugar Bottles of lemonade doctored with rat poison were discovered in the kitchen. 2.melon        UK /ˈmel.ən/ a large, round fruit with hard yellow or green skin, sweet flesh, and a...","categories": ["Vocabulary List A2"],
+        "tags": ["Vocabulary List A2"],
+        "url": "/vocabulary%20list%20a2/English-Word1214/",
+        "teaser": null
+      },{
+        "title": "appointment dentist musician camping tent",
+        "excerpt":"A2 Key Vocabulary List 2022/12/18 1.appointment        UK /əˈpɔɪnt.mənt/ a formal arrangement to meet or visit someone at a particular time and place I'd like to make an appointment with Dr Evans, please. 2.dentist        UK /ˈden.tɪst/ a person whose job is treating people’s teeth You should have your teeth...","categories": ["Vocabulary List A2"],
+        "tags": ["Vocabulary List A2"],
+        "url": "/vocabulary%20list%20a2/English-Word1218/",
+        "teaser": null
+      },{
+        "title": "furniture pillow curtain blanket bookcase",
+        "excerpt":"A2 Key Vocabulary List 2022/12/20 1.furniture        UK /ˈfɜː.nɪ.tʃər/ things such as chairs, tables, beds, cupboards They have a lot of antique furniture. 2.pillow        UK /ˈpɪl.əʊ/ a rectangular cloth bag filled with soft material, such as feathers or artificial materials, used for resting your head on in bed Do...","categories": ["Vocabulary List A2"],
+        "tags": ["Vocabulary List A2"],
+        "url": "/vocabulary%20list%20a2/English-Word1220/",
+        "teaser": null
+      },{
+        "title": "towel pleasant brilliant clever pharmacy",
+        "excerpt":"A2 Key Vocabulary List 2022/12/22 1.towel        UK /taʊəl/ a piece of cloth or paper used for drying someone or something that is wet He used a paper towel to mop up the spill. 2.pleasant        UK /ˈplez.ənt/ enjoyable, attractive, friendly, or easy to like It was pleasant to sit...","categories": ["Vocabulary List A2"],
+        "tags": ["Vocabulary List A2"],
+        "url": "/vocabulary%20list%20a2/English-Word1222/",
+        "teaser": null
+      },{
+        "title": "comb stadium cheque receipt recast",
+        "excerpt":"A2 Key Vocabulary List 2022/12/23 1.comb        UK /kəʊm/ a flat piece of plastic, wood, or metal with a thin row of long, narrow parts along one side, used to tidy and arrange your hair She combed her hair and put on some lipstick. 2.stadium        UK /ˈsteɪ.di.əm/ sed for...","categories": ["Vocabulary List A2"],
+        "tags": ["Vocabulary List A2"],
+        "url": "/vocabulary%20list%20a2/English-Word1223/",
         "teaser": null
       },{
         "title": "WorkOut Record",
-        "excerpt":"2023/01 健身組數紀錄                  日期       活動       重量/次                                               2023/01/07       滑輪背拉       30/10       30/10       30/10       30/10                         硬舉       40/8       40/8       40/8                                 機械推舉       27/10       27/10       27/10       27/10                         槓鈴握推       40/6       40/6       40/6                   ","categories": ["WorkOut"],
+        "excerpt":"2023/01 健身組數紀錄 日期 活動 重量/次       2023/01/07 滑輪背拉 30/10 30/10 30/10 30/10   硬舉 40/8 40/8 40/8     機械推舉 27/10 27/10 27/10 27/10   槓鈴握推 40/6 40/6 40/6               2023/01/13 深蹲 40/8 50/8 50/8 50/8   槓鈴握推 40/6 40/6 40/6  ...","categories": ["WorkOut"],
         "tags": ["WorkOut"],
         "url": "/workout/1%E6%9C%88Workout/",
         "teaser": null
