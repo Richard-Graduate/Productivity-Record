@@ -180,49 +180,49 @@ var store = [{
         "teaser": null
       },{
         "title": "traffic bathing suit fridge tights trousers",
-        "excerpt":"A2 Key Vocabulary List 2022/12/11 1.traffic        UK /ˈtræf.ɪk/ the number of vehicles moving along roads, or the amount of aircraft, trains, or ships moving along a route. We got stuck in traffic for several hours. 2.bathing suit        UK /ˈbeɪ.ðɪŋ ˌsuːt/ a piece of clothing that you wear for...","categories": ["Vocabulary List A2"],
+        "excerpt":"2022/12/11 A2 Key Vocabulary List 2022/12/11 1.traffic        UK /ˈtræf.ɪk/ the number of vehicles moving along roads, or the amount of aircraft, trains, or ships moving along a route. We got stuck in traffic for several hours. 2.bathing suit        UK /ˈbeɪ.ðɪŋ ˌsuːt/ a piece of clothing that you wear...","categories": ["Vocabulary List A2"],
         "tags": ["Vocabulary List A2"],
         "url": "/vocabulary%20list%20a2/English-Word1211/",
         "teaser": null
       },{
         "title": "pale envelope magazine diploma bookshelf",
-        "excerpt":"A2 Key Vocabulary List 2022/12/12 1.pale        UK /peɪl/ used to describe a person’s face or skin if it has less colour than usual You're looking pale - are you feeling well? 2.envelope        UK /ˈen.və.ləʊp/ a flat, usually square or rectangular, paper container for a letter I folded the...","categories": ["Vocabulary List A2"],
+        "excerpt":"2022/12/12 A2 Key Vocabulary List 2022/12/12 1.pale        UK /peɪl/ used to describe a person’s face or skin if it has less colour than usual You're looking pale - are you feeling well? 2.envelope        UK /ˈen.və.ləʊp/ a flat, usually square or rectangular, paper container for a letter I folded...","categories": ["Vocabulary List A2"],
         "tags": ["Vocabulary List A2"],
         "url": "/vocabulary%20list%20a2/English-Word1212/",
         "teaser": null
       },{
         "title": "clever rubber advertisement surname biscuit",
-        "excerpt":"A2 Key Vocabulary List 2022/12/13 1.clever        UK /ˈklev.ər/ having or showing the ability to learn and understand things quickly and easily Judy has never been very clever, but she tries hard. 2.rubber        UK /ˈrʌb.ər/ an elastic substance (= that stretches) made either from the juice of particular tropical...","categories": ["Vocabulary List A2"],
+        "excerpt":"2022/12/13 A2 Key Vocabulary List 2022/12/13 1.clever        UK /ˈklev.ər/ having or showing the ability to learn and understand things quickly and easily Judy has never been very clever, but she tries hard. 2.rubber        UK /ˈrʌb.ər/ an elastic substance (= that stretches) made either from the juice of particular...","categories": ["Vocabulary List A2"],
         "tags": ["Vocabulary List A2"],
         "url": "/vocabulary%20list%20a2/English-Word1213/",
         "teaser": null
       },{
         "title": "lemonade melon omelette cereal ambulance",
-        "excerpt":"A2 Key Vocabulary List 2022/12/14 1.lemonade        UK /ˌlem.əˈneɪd/ a drink made with the juice of lemons, water, and sugar Bottles of lemonade doctored with rat poison were discovered in the kitchen. 2.melon        UK /ˈmel.ən/ a large, round fruit with hard yellow or green skin, sweet flesh, and a...","categories": ["Vocabulary List A2"],
+        "excerpt":"2022/12/14 A2 Key Vocabulary List 2022/12/14 1.lemonade        UK /ˌlem.əˈneɪd/ a drink made with the juice of lemons, water, and sugar Bottles of lemonade doctored with rat poison were discovered in the kitchen. 2.melon        UK /ˈmel.ən/ a large, round fruit with hard yellow or green skin, sweet flesh, and...","categories": ["Vocabulary List A2"],
         "tags": ["Vocabulary List A2"],
         "url": "/vocabulary%20list%20a2/English-Word1214/",
         "teaser": null
       },{
         "title": "appointment dentist musician camping tent",
-        "excerpt":"A2 Key Vocabulary List 2022/12/18 1.appointment        UK /əˈpɔɪnt.mənt/ a formal arrangement to meet or visit someone at a particular time and place I'd like to make an appointment with Dr Evans, please. 2.dentist        UK /ˈden.tɪst/ a person whose job is treating people’s teeth You should have your teeth...","categories": ["Vocabulary List A2"],
+        "excerpt":"2022/12/18 A2 Key Vocabulary List 2022/12/18 1.appointment        UK /əˈpɔɪnt.mənt/ a formal arrangement to meet or visit someone at a particular time and place I'd like to make an appointment with Dr Evans, please. 2.dentist        UK /ˈden.tɪst/ a person whose job is treating people’s teeth You should have your...","categories": ["Vocabulary List A2"],
         "tags": ["Vocabulary List A2"],
         "url": "/vocabulary%20list%20a2/English-Word1218/",
         "teaser": null
       },{
         "title": "furniture pillow curtain blanket bookcase",
-        "excerpt":"A2 Key Vocabulary List 2022/12/20 1.furniture        UK /ˈfɜː.nɪ.tʃər/ things such as chairs, tables, beds, cupboards They have a lot of antique furniture. 2.pillow        UK /ˈpɪl.əʊ/ a rectangular cloth bag filled with soft material, such as feathers or artificial materials, used for resting your head on in bed Do...","categories": ["Vocabulary List A2"],
+        "excerpt":"2022/12/20 A2 Key Vocabulary List 2022/12/20 1.furniture        UK /ˈfɜː.nɪ.tʃər/ things such as chairs, tables, beds, cupboards They have a lot of antique furniture. 2.pillow        UK /ˈpɪl.əʊ/ a rectangular cloth bag filled with soft material, such as feathers or artificial materials, used for resting your head on in bed...","categories": ["Vocabulary List A2"],
         "tags": ["Vocabulary List A2"],
         "url": "/vocabulary%20list%20a2/English-Word1220/",
         "teaser": null
       },{
         "title": "towel pleasant brilliant clever pharmacy",
-        "excerpt":"A2 Key Vocabulary List 2022/12/22 1.towel        UK /taʊəl/ a piece of cloth or paper used for drying someone or something that is wet He used a paper towel to mop up the spill. 2.pleasant        UK /ˈplez.ənt/ enjoyable, attractive, friendly, or easy to like It was pleasant to sit...","categories": ["Vocabulary List A2"],
+        "excerpt":"2022/12/22 A2 Key Vocabulary List 2022/12/22 1.towel        UK /taʊəl/ a piece of cloth or paper used for drying someone or something that is wet He used a paper towel to mop up the spill. 2.pleasant        UK /ˈplez.ənt/ enjoyable, attractive, friendly, or easy to like It was pleasant to...","categories": ["Vocabulary List A2"],
         "tags": ["Vocabulary List A2"],
         "url": "/vocabulary%20list%20a2/English-Word1222/",
         "teaser": null
       },{
         "title": "comb stadium cheque receipt recast",
-        "excerpt":"A2 Key Vocabulary List 2022/12/23 1.comb        UK /kəʊm/ a flat piece of plastic, wood, or metal with a thin row of long, narrow parts along one side, used to tidy and arrange your hair She combed her hair and put on some lipstick. 2.stadium        UK /ˈsteɪ.di.əm/ sed for...","categories": ["Vocabulary List A2"],
+        "excerpt":"2022/12/23 A2 Key Vocabulary List 2022/12/23 1.comb        UK /kəʊm/ a flat piece of plastic, wood, or metal with a thin row of long, narrow parts along one side, used to tidy and arrange your hair She combed her hair and put on some lipstick. 2.stadium        UK /ˈsteɪ.di.əm/ sed...","categories": ["Vocabulary List A2"],
         "tags": ["Vocabulary List A2"],
         "url": "/vocabulary%20list%20a2/English-Word1223/",
         "teaser": null
@@ -231,5 +231,47 @@ var store = [{
         "excerpt":"2023/01 健身組數紀錄 日期 活動 重量/次       2023/01/07 滑輪背拉 30/10 30/10 30/10 30/10   硬舉 40/8 40/8 40/8     機械推舉 27/10 27/10 27/10 27/10   槓鈴握推 40/6 40/6 40/6               2023/01/13 深蹲 40/8 50/8 50/8 50/8   槓鈴握推 40/6 40/6 40/6  ...","categories": ["WorkOut"],
         "tags": ["WorkOut"],
         "url": "/workout/1%E6%9C%88Workout/",
+        "teaser": null
+      },{
+        "title": "rugby sailing hockey skiing snowboard",
+        "excerpt":"2023/01/31 A2 Key Vocabulary List 2023/01/31 1.rugby        UK /ˈrʌɡ.bi/ a sport where two teams try to score points by carrying an oval ball across a particular line or kicking it over and between an H-shaped set of posts He's built like a rugby player (= he is very big...","categories": ["Vocabulary List A2"],
+        "tags": ["Vocabulary List A2"],
+        "url": "/vocabulary%20list%20a2/English-Word0131/",
+        "teaser": null
+      },{
+        "title": "cricket racket court desert century",
+        "excerpt":"2023/02/01 A2 Key Vocabulary List 2023/02/01 1.cricket        UK /ˈkrɪk.ɪt/ a sport in which two teams of eleven players try to score runs (= points) by hitting a small, hard ball with a bat, and running between two sets of small wooden posts Binns played cricket for his county in...","categories": ["Vocabulary List A2"],
+        "tags": ["Vocabulary List A2"],
+        "url": "/vocabulary%20list%20a2/English-Word0201/",
+        "teaser": null
+      },{
+        "title": "suitcase helicopter garage tram petrol station",
+        "excerpt":"2023/02/02 A2 Key Vocabulary List 2023/02/02 1.suitcase        UK /ˈsuːt.keɪs/ a large, rectangular container with a handle, for carrying clothes and possessions while travelling The suitcase was full of dollar bills . 2.helicopter        UK /ˈhel.ɪˌkɒp.tər/ a type of aircraft without wings, that has one or two sets of large...","categories": ["Vocabulary List A2"],
+        "tags": ["Vocabulary List A2"],
+        "url": "/vocabulary%20list%20a2/English-Word0202/",
+        "teaser": null
+      },{
+        "title": "mechanic roundabout motorway thunderstorm journalist",
+        "excerpt":"2023/02/06 A2 Key Vocabulary List 2023/02/06 1.mechanic        UK /məˈkæn.ɪk/ someone whose job is repairing the engines of vehicles and other machines At that time she was just a humble mechanic. 2.roundabout        UK /ˈraʊnd.ə.baʊt/ a place where three or more roads join and traffic must go around a circular...","categories": ["Vocabulary List A2"],
+        "tags": ["Vocabulary List A2"],
+        "url": "/vocabulary%20list%20a2/English-Word0206/",
+        "teaser": null
+      },{
+        "title": "lettuce appetizer gather pepper thought",
+        "excerpt":"2023/02/08 A2 Key Vocabulary List 2023/02/08 1.lettuce        US /ˈlet.ɪs/ a plant with large, green leaves, eaten uncooked in salads I'd like a ham sandwich on rye, hold the lettuce. 2.appetizer        US /ˈæp.ə.taɪ.zər/ a small amount of food eaten before a meal At 6.30 everyone gathered for drinks and...","categories": ["Vocabulary List A2"],
+        "tags": ["Vocabulary List A2"],
+        "url": "/vocabulary%20list%20a2/English-Word0208/",
+        "teaser": null
+      },{
+        "title": "ordering food",
+        "excerpt":"2023/02/09 Conversation 2023/02/09 1.secretary        https://www.youtube.com/watch?v=lEF7tkTn1YE Good evening are you ready to order? sure Would you like to start with an appetizer? Yes.I want a salad. What kind of salad do you have? We have fruit salad,caesar salad with chicken and green salad.What do you want? Is there oil on...","categories": ["Conversation"],
+        "tags": ["Conversation"],
+        "url": "/conversation/English-Conversation/",
+        "teaser": null
+      },{
+        "title": "mechanic roundabout motorway thunderstorm journalist",
+        "excerpt":"2023/02/08 A2 Key Vocabulary List 2023/02/09 1.secretary        US /ˈsek.rə.ter.i/ someone who works in an office, writing letters, making phone calls, and arranging meetings for a person or for an organization Their conversations were taken down in shorthand by a secretary. 2.instruction        US /ɪnˈstrʌk.ʃən/ something that someone tells you...","categories": ["Vocabulary List A2"],
+        "tags": ["Vocabulary List A2"],
+        "url": "/vocabulary%20list%20a2/English-Word0209/",
         "teaser": null
       },]

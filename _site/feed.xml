@@ -1,4 +1,396 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2023-01-30T22:10:18+08:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Memory Record</title><subtitle>A flexible Jekyll theme for your blog or site with a minimalist aesthetic.</subtitle><author><name>AniPotato</name></author><entry><title type="html">WorkOut Record</title><link href="http://0.0.0.0:4000/workout/1%E6%9C%88Workout/" rel="alternate" type="text/html" title="WorkOut Record" /><published>2023-01-08T00:00:00+08:00</published><updated>2023-01-08T00:00:00+08:00</updated><id>http://0.0.0.0:4000/workout/1%E6%9C%88Workout</id><content type="html" xml:base="http://0.0.0.0:4000/workout/1%E6%9C%88Workout/"><![CDATA[<h2 id="202301-健身組數紀錄">2023/01 健身組數紀錄</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2023-02-09T23:40:40+08:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Memory Record</title><subtitle>A flexible Jekyll theme for your blog or site with a minimalist aesthetic.</subtitle><author><name>AniPotato</name></author><entry><title type="html">ordering food</title><link href="http://0.0.0.0:4000/conversation/English-Conversation/" rel="alternate" type="text/html" title="ordering food" /><published>2023-02-09T00:00:00+08:00</published><updated>2023-02-09T00:00:00+08:00</updated><id>http://0.0.0.0:4000/conversation/English%20Conversation</id><content type="html" xml:base="http://0.0.0.0:4000/conversation/English-Conversation/"><![CDATA[<h2 id="20230209-conversation">2023/02/09 Conversation</h2>
+
+<h6 id="20230209">2023/02/09</h6>
+<h2 id="1secretary-">1.secretary       </h2>
+
+<p>https://www.youtube.com/watch?v=lEF7tkTn1YE</p>
+
+<p class="notice--warning"><code class="language-plaintext highlighter-rouge">Good evening are you ready to order?</code></p>
+
+<p class="notice--info"><code class="language-plaintext highlighter-rouge">sure</code></p>
+
+<p class="notice--warning"><code class="language-plaintext highlighter-rouge">Would you like to start with an appetizer?</code></p>
+
+<p class="notice--info"><code class="language-plaintext highlighter-rouge">Yes.I want a salad. What kind of salad do you have?</code></p>
+
+<p class="notice--warning"><code class="language-plaintext highlighter-rouge">We have fruit salad,caesar salad with chicken and green salad.What do you want?</code></p>
+
+<p class="notice--info"><code class="language-plaintext highlighter-rouge">Is there oil on the green salad?</code></p>
+
+<p class="notice--warning"><code class="language-plaintext highlighter-rouge">Yes,We use a lot of olive oil for thar dish.</code></p>
+
+<p class="notice--info"><code class="language-plaintext highlighter-rouge">Can I have a green salad without the oil?</code></p>
+
+<p class="notice--warning"><code class="language-plaintext highlighter-rouge">Sure.But maybe the taste will not be good.</code></p>
+
+<p class="notice--info"><code class="language-plaintext highlighter-rouge">What's in the salad?</code></p>
+
+<p class="notice--warning"><code class="language-plaintext highlighter-rouge">It contains carrots,peppers,onions and lettuce.</code></p>
+
+<p class="notice--info"><code class="language-plaintext highlighter-rouge">Right.It will be very pale without olive oil.</code></p>
+
+<p class="notice--warning"><code class="language-plaintext highlighter-rouge">I recommend a mixed green salad with fruit,It will taste better.</code></p>
+
+<p class="notice--info"><code class="language-plaintext highlighter-rouge">Good idea,I'll have that.</code></p>
+
+<p class="notice--warning"><code class="language-plaintext highlighter-rouge">What about the main dishes?</code></p>
+
+<p class="notice--info"><code class="language-plaintext highlighter-rouge">What are today's special?</code></p>
+
+<p class="notice--warning"><code class="language-plaintext highlighter-rouge">Today we have grill fish,shrimp hamburger with chilies sauces and tacos.</code></p>
+
+<p class="notice--info"><code class="language-plaintext highlighter-rouge">What is the sauce made of?</code></p>
+
+<p class="notice--warning"><code class="language-plaintext highlighter-rouge">It's made from chilies,pepper and mayonnaise.</code></p>
+
+<p class="notice--info"><code class="language-plaintext highlighter-rouge">I can eat spicily,I think I'll have grill fish.</code></p>
+
+<p class="notice--warning"><code class="language-plaintext highlighter-rouge">It is  served with a choice of rice or mashed potatoes.What is your choice?</code></p>
+
+<p class="notice--info"><code class="language-plaintext highlighter-rouge">Hmm rice,please.</code></p>
+
+<p class="notice--warning"><code class="language-plaintext highlighter-rouge">Is there anything else?</code></p>
+
+<p class="notice--info"><code class="language-plaintext highlighter-rouge">a bowl of pumpkin soup,please.</code></p>
+
+<p class="notice--warning"><code class="language-plaintext highlighter-rouge">Okay,Do you want anything to drink?</code></p>
+
+<p class="notice--info"><code class="language-plaintext highlighter-rouge">A bottle of mineral water,please.</code></p>
+
+<p class="notice--warning"><code class="language-plaintext highlighter-rouge">Alright.Would you like some desserts?</code></p>
+
+<p class="notice--info"><code class="language-plaintext highlighter-rouge">What do you have for dessert today?</code></p>
+
+<p class="notice--warning"><code class="language-plaintext highlighter-rouge">We have brownies,ice cream and fruits.</code></p>
+
+<p class="notice--info"><code class="language-plaintext highlighter-rouge">I want an ice cream,a vanilla ice cream,please.</code></p>
+
+<p class="notice--warning"><code class="language-plaintext highlighter-rouge">Is that all?你還要別的嗎?</code></p>
+
+<p class="notice--info"><code class="language-plaintext highlighter-rouge">No,How long will the dish come out?</code></p>
+
+<p class="notice--warning"><code class="language-plaintext highlighter-rouge">It's about 30 minutes.I'll bring you the drink first.</code></p>
+
+<p class="notice--info"><code class="language-plaintext highlighter-rouge">Okay.</code></p>
+
+<p class="notice--warning">``</p>
+
+<p class="notice--info">``
+<!----------------------------------------------------------></p>]]></content><author><name>AniPotato</name></author><category term="Conversation" /><category term="Conversation" /><summary type="html"><![CDATA[2023/02/09 Conversation]]></summary></entry><entry><title type="html">mechanic roundabout motorway thunderstorm journalist</title><link href="http://0.0.0.0:4000/vocabulary%20list%20a2/English-Word0209/" rel="alternate" type="text/html" title="mechanic roundabout motorway thunderstorm journalist" /><published>2023-02-09T00:00:00+08:00</published><updated>2023-02-09T00:00:00+08:00</updated><id>http://0.0.0.0:4000/vocabulary%20list%20a2/English%20Word0209</id><content type="html" xml:base="http://0.0.0.0:4000/vocabulary%20list%20a2/English-Word0209/"><![CDATA[<h2 id="20230208-a2-key-vocabulary-list">2023/02/08 A2 Key Vocabulary List</h2>
+
+<h6 id="20230209">2023/02/09</h6>
+<h2 id="1secretary-">1.secretary       </h2>
+<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/secretary">US  /ˈsek.rə.ter.i/</a></p>
+
+<p class="notice--warning">someone who works in an office, writing letters, making phone calls, and arranging meetings for a person or for an organization</p>
+<p><code class="language-plaintext highlighter-rouge">Their conversations were taken down in shorthand by a secretary.</code></p>
+
+<!---------------------------------------------------------->
+
+<h2 id="2instruction-">2.instruction       </h2>
+
+<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/instruction">US  /ɪnˈstrʌk.ʃən/</a></p>
+
+<ol>
+  <li>something that someone tells you to do</li>
+</ol>
+
+<p><code class="language-plaintext highlighter-rouge">She remembered Ann's instruction not to be late.</code></p>
+
+<ol>
+  <li>advice and information about how to do or use something, often written in a book or on the side of a container</li>
+</ol>
+
+<p class="notice--warning"><code class="language-plaintext highlighter-rouge">You obviously didn't read the instructions properly.</code></p>
+
+<!---------------------------------------------------------->
+
+<h2 id="3receptionist-">3.receptionist       </h2>
+
+<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/receptionist">US  /rɪˈsep.ʃən.ɪst/</a></p>
+
+<p>a person who works in a place such as a hotel, office, or hospital, who welcomes and helps visitors and answers the phone</p>
+
+<p class="notice--warning"><code class="language-plaintext highlighter-rouge">Meet Sarah, who works as a receptionist at a large financial services company.</code></p>
+
+<!---------------------------------------------------------->
+
+<h2 id="4scarf-">4.scarf       </h2>
+
+<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/scarf">US  /skɑːrf/</a></p>
+
+<ol>
+  <li>a strip, square, or triangle of cloth, worn around the neck, head, or shoulders to keep you warm or to make you look attractive</li>
+</ol>
+
+<p class="notice--warning">2.to eat something quickly and eagerly
+<code class="language-plaintext highlighter-rouge">Lunch is usually scarfed down in five minutes before they run out to play.</code></p>
+<p><code class="language-plaintext highlighter-rouge">He had a woollen scarf around his neck.</code></p>
+
+<!---------------------------------------------------------->
+
+<h2 id="5institution-">5.institution       </h2>
+
+<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/institution">US  /ˌɪn.stəˈtuː.ʃən/</a></p>
+
+<p>a large and important organization, such as a university or bank</p>
+
+<p class="notice--warning"><code class="language-plaintext highlighter-rouge">Harvard University is an internationally respected institution.</code></p>
+
+<!---------------------------------------------------------->]]></content><author><name>AniPotato</name></author><category term="Vocabulary List A2" /><category term="Vocabulary List A2" /><summary type="html"><![CDATA[2023/02/08 A2 Key Vocabulary List]]></summary></entry><entry><title type="html">lettuce appetizer gather pepper thought</title><link href="http://0.0.0.0:4000/vocabulary%20list%20a2/English-Word0208/" rel="alternate" type="text/html" title="lettuce appetizer gather pepper thought" /><published>2023-02-08T00:00:00+08:00</published><updated>2023-02-08T00:00:00+08:00</updated><id>http://0.0.0.0:4000/vocabulary%20list%20a2/English%20Word0208</id><content type="html" xml:base="http://0.0.0.0:4000/vocabulary%20list%20a2/English-Word0208/"><![CDATA[<h2 id="20230208-a2-key-vocabulary-list">2023/02/08 A2 Key Vocabulary List</h2>
+
+<h6 id="20230208">2023/02/08</h6>
+<h2 id="1lettuce-">1.lettuce       </h2>
+<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/mechanic">US  /ˈlet.ɪs/</a></p>
+
+<p class="notice--warning">a plant with large, green leaves, eaten uncooked in salads</p>
+<p><code class="language-plaintext highlighter-rouge">I'd like a ham sandwich on rye, hold the lettuce.</code></p>
+
+<!---------------------------------------------------------->
+
+<h2 id="2appetizer-">2.appetizer       </h2>
+
+<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/appetizer">US  /ˈæp.ə.taɪ.zər/</a></p>
+
+<p>a small amount of food eaten before a meal</p>
+
+<p class="notice--warning"><code class="language-plaintext highlighter-rouge">At 6.30 everyone gathered for drinks and appetizers in the lounge.</code></p>
+
+<!---------------------------------------------------------->
+
+<h2 id="3gather-">3.gather       </h2>
+
+<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/gather">US  /ˈɡæð.ər/</a></p>
+
+<p>to collect several things, often from different places or people</p>
+
+<p class="notice--warning"><code class="language-plaintext highlighter-rouge">I went to several libraries to gather information about the plans.</code></p>
+
+<!---------------------------------------------------------->
+
+<h2 id="4pepper-">4.pepper       </h2>
+
+<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/pepper">US  /ˈpep.ər/</a></p>
+
+<p class="notice--warning">a red/green pepper</p>
+<p><code class="language-plaintext highlighter-rouge">Red peppers are ideal for roasting in the oven.</code></p>
+
+<!---------------------------------------------------------->
+
+<h2 id="5thought-">5.thought       </h2>
+
+<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/thought">US  /θɑːt/</a></p>
+
+<p>an idea or opinion, or a set of ideas about a particular subject</p>
+
+<p class="notice--warning"><code class="language-plaintext highlighter-rouge">Ask me again tomorrow. I'll have to give it some thought.</code></p>
+
+<!---------------------------------------------------------->]]></content><author><name>AniPotato</name></author><category term="Vocabulary List A2" /><category term="Vocabulary List A2" /><summary type="html"><![CDATA[2023/02/08 A2 Key Vocabulary List]]></summary></entry><entry><title type="html">mechanic roundabout motorway thunderstorm journalist</title><link href="http://0.0.0.0:4000/vocabulary%20list%20a2/English-Word0206/" rel="alternate" type="text/html" title="mechanic roundabout motorway thunderstorm journalist" /><published>2023-02-06T00:00:00+08:00</published><updated>2023-02-06T00:00:00+08:00</updated><id>http://0.0.0.0:4000/vocabulary%20list%20a2/English%20Word0206</id><content type="html" xml:base="http://0.0.0.0:4000/vocabulary%20list%20a2/English-Word0206/"><![CDATA[<h2 id="20230206-a2-key-vocabulary-list">2023/02/06 A2 Key Vocabulary List</h2>
+
+<h6 id="20230206">2023/02/06</h6>
+<h2 id="1mechanic-">1.mechanic       </h2>
+<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/mechanic">UK  /məˈkæn.ɪk/</a></p>
+
+<p class="notice--warning">someone whose job is repairing the engines of vehicles and other machines</p>
+<p><code class="language-plaintext highlighter-rouge">At that time she was just a humble mechanic.</code></p>
+
+<!---------------------------------------------------------->
+
+<h2 id="2roundabout-">2.roundabout       </h2>
+
+<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/roundabout">UK  /ˈraʊnd.ə.baʊt/</a></p>
+
+<ol class="notice--warning">
+  <li>
+    <p>a place where three or more roads join and traffic must go around a circular area in the middle, rather than straight across</p>
+  </li>
+  <li>
+    <p>not in a simple, direct, or quick way</p>
+  </li>
+</ol>
+<p><code class="language-plaintext highlighter-rouge">He asked me, in a roundabout way, if he could have a salary increase.</code></p>
+
+<!---------------------------------------------------------->
+
+<h2 id="3motorway-">3.motorway       </h2>
+
+<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/motorway">UK  /ˈməʊ.tə.weɪ/</a></p>
+
+<p>a wide road for fast-moving traffic, especially in the UK, Ireland, and some other countries, with a limited number of places at which drivers can enter and leave it</p>
+
+<p class="notice--warning"><code class="language-plaintext highlighter-rouge">Because of the bad weather, motorway (driving) conditions are expected to be hazardous tonight.</code></p>
+
+<!---------------------------------------------------------->
+
+<h2 id="4thunderstorm-station-">4.thunderstorm station       </h2>
+
+<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/thunderstorm">UK  /ˈθʌn.də.stɔːm/</a></p>
+
+<p class="notice--warning">a storm with thunder and lightning and usually heavy rain</p>
+<p><code class="language-plaintext highlighter-rouge">This is like whistling into a thunderstorm and expecting the sky to clear.</code></p>
+
+<!---------------------------------------------------------->
+
+<h2 id="5journalist-">5.journalist       </h2>
+
+<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/journalist">UK  /ˈdʒɜː.nə.lɪst/</a></p>
+
+<p>a person who writes news stories or articles for a newspaper or magazine or broadcasts them on radio or television</p>
+
+<p class="notice--warning"><code class="language-plaintext highlighter-rouge">The journalist asked the minister how he viewed recent events.</code></p>
+
+<!---------------------------------------------------------->]]></content><author><name>AniPotato</name></author><category term="Vocabulary List A2" /><category term="Vocabulary List A2" /><summary type="html"><![CDATA[2023/02/06 A2 Key Vocabulary List]]></summary></entry><entry><title type="html">suitcase helicopter garage tram petrol station</title><link href="http://0.0.0.0:4000/vocabulary%20list%20a2/English-Word0202/" rel="alternate" type="text/html" title="suitcase helicopter garage tram petrol station" /><published>2023-02-02T00:00:00+08:00</published><updated>2023-02-02T00:00:00+08:00</updated><id>http://0.0.0.0:4000/vocabulary%20list%20a2/English%20Word0202</id><content type="html" xml:base="http://0.0.0.0:4000/vocabulary%20list%20a2/English-Word0202/"><![CDATA[<h2 id="20230202-a2-key-vocabulary-list">2023/02/02 A2 Key Vocabulary List</h2>
+
+<h6 id="20230202">2023/02/02</h6>
+<h2 id="1suitcase-">1.suitcase       </h2>
+<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/suitcase">UK  /ˈsuːt.keɪs/</a></p>
+
+<p class="notice--warning">a large, rectangular container with a handle, for carrying clothes and possessions while travelling</p>
+<p><code class="language-plaintext highlighter-rouge">The suitcase was full of dollar bills .</code></p>
+
+<!---------------------------------------------------------->
+
+<h2 id="2helicopter-">2.helicopter       </h2>
+
+<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/helicopter">UK  /ˈhel.ɪˌkɒp.tər/</a></p>
+
+<p class="notice--warning">a type of aircraft without wings, that has one or two sets of large blades that go round very fast on top. It can land and take off vertically and can stay in one place in the air</p>
+<p><code class="language-plaintext highlighter-rouge">The injured were ferried to hospital by helicopter.</code></p>
+
+<!---------------------------------------------------------->
+
+<h2 id="3garage-">3.garage       </h2>
+
+<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/garage">UK  /ˈɡær.ɑːʒ/</a></p>
+
+<p>a building where a car is kept, built next to or as part of a house</p>
+
+<p class="notice--warning"><code class="language-plaintext highlighter-rouge">Did you put the car in the garage?</code></p>
+
+<!---------------------------------------------------------->
+
+<h2 id="4petrol-station-">4.petrol station       </h2>
+
+<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/petrol station">UK  /ˈpet.rəl ˌsteɪ.ʃən/</a></p>
+
+<p class="notice--warning">a place where fuel is sold for road vehicles, often with a small shop</p>
+<p><code class="language-plaintext highlighter-rouge">A small shop is attached to the petrol station.</code></p>
+
+<!---------------------------------------------------------->
+
+<h2 id="5tram-">5.tram       </h2>
+
+<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/tram">UK  /ˈsen.tʃər.i/</a></p>
+
+<p>an electric vehicle that transports people, usually in cities, and goes along metal tracks in the road</p>
+
+<p class="notice--warning"><code class="language-plaintext highlighter-rouge">Train use remained stable, but the use of trams and trolley-buses declined almost to nothing.</code></p>
+
+<!---------------------------------------------------------->]]></content><author><name>AniPotato</name></author><category term="Vocabulary List A2" /><category term="Vocabulary List A2" /><summary type="html"><![CDATA[2023/02/02 A2 Key Vocabulary List]]></summary></entry><entry><title type="html">cricket racket court desert century</title><link href="http://0.0.0.0:4000/vocabulary%20list%20a2/English-Word0201/" rel="alternate" type="text/html" title="cricket racket court desert century" /><published>2023-02-01T00:00:00+08:00</published><updated>2023-02-01T00:00:00+08:00</updated><id>http://0.0.0.0:4000/vocabulary%20list%20a2/English%20Word0201</id><content type="html" xml:base="http://0.0.0.0:4000/vocabulary%20list%20a2/English-Word0201/"><![CDATA[<h2 id="20230201-a2-key-vocabulary-list">2023/02/01 A2 Key Vocabulary List</h2>
+
+<h6 id="20230201">2023/02/01</h6>
+<h2 id="1cricket-">1.cricket       </h2>
+<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/cricket">UK  /ˈkrɪk.ɪt/</a></p>
+
+<p class="notice--warning">a sport in which two teams of eleven players try to score runs (= points) by hitting a small, hard ball with a bat, and running between two sets of small wooden posts</p>
+<p><code class="language-plaintext highlighter-rouge">Binns played cricket for his county in his youth.</code></p>
+
+<!---------------------------------------------------------->
+
+<h2 id="2racket-">2.racket       </h2>
+
+<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/racket">UK  /ˈræk.ɪt/</a></p>
+
+<p class="notice--warning">an object used for hitting the ball in various sports, consisting of a net fixed tightly to a round frame with a long handle</p>
+<p><code class="language-plaintext highlighter-rouge">He threw his racket across the court.</code></p>
+
+<!---------------------------------------------------------->
+
+<h2 id="3court-">3.court       </h2>
+
+<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/court">UK  /kɔːt/</a></p>
+
+<ol>
+  <li>a place where trials and other legal cases happen, or the people present in such a place, especially the officials and those deciding if someone is guilty</li>
+</ol>
+
+<p><code class="language-plaintext highlighter-rouge">He's due to appear in court again on Monday.</code></p>
+
+<ol>
+  <li>an area drawn out on the ground that is used for playing sports such as tennis and basketball</li>
+</ol>
+
+<p><code class="language-plaintext highlighter-rouge">They were penalized for having too many players on the court.</code></p>
+
+<ol class="notice--warning">
+  <li>an area or a short road that is not covered by a roof and is mostly or completely surrounded by buildings</li>
+</ol>
+<p><code class="language-plaintext highlighter-rouge">You really should go and see the medieval court in the castle.</code></p>
+
+<!---------------------------------------------------------->
+
+<h2 id="4desert-">4.desert       </h2>
+
+<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/desert">UK  /ˈdez.ət/</a></p>
+
+<p class="notice--warning">an area, often covered with sand or rocks, where there is very little rain and not many plants</p>
+<p><code class="language-plaintext highlighter-rouge">They were lost in the desert for nine days.</code></p>
+
+<!---------------------------------------------------------->
+
+<h2 id="5century-">5.century       </h2>
+
+<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/century">UK  /ˈsen.tʃər.i/</a></p>
+
+<p class="notice--warning">a period of 100 years</p>
+<p><code class="language-plaintext highlighter-rouge">The city centre has scarcely changed in over a century.</code></p>
+
+<!---------------------------------------------------------->]]></content><author><name>AniPotato</name></author><category term="Vocabulary List A2" /><category term="Vocabulary List A2" /><summary type="html"><![CDATA[2023/02/01 A2 Key Vocabulary List]]></summary></entry><entry><title type="html">rugby sailing hockey skiing snowboard</title><link href="http://0.0.0.0:4000/vocabulary%20list%20a2/English-Word0131/" rel="alternate" type="text/html" title="rugby sailing hockey skiing snowboard" /><published>2023-01-31T00:00:00+08:00</published><updated>2023-01-31T00:00:00+08:00</updated><id>http://0.0.0.0:4000/vocabulary%20list%20a2/English%20Word0131</id><content type="html" xml:base="http://0.0.0.0:4000/vocabulary%20list%20a2/English-Word0131/"><![CDATA[<h2 id="20230131-a2-key-vocabulary-list">2023/01/31 A2 Key Vocabulary List</h2>
+
+<h6 id="20230131">2023/01/31</h6>
+<h2 id="1rugby-">1.rugby       </h2>
+<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/rugby">UK  /ˈrʌɡ.bi/</a></p>
+
+<p class="notice--warning">a sport where two teams try to score points by carrying an oval ball across a particular line or kicking it over and between an H-shaped set of posts</p>
+<p><code class="language-plaintext highlighter-rouge">He's built like a rugby player (= he is very big and strong).</code></p>
+
+<!---------------------------------------------------------->
+
+<h2 id="2sailing-">2.sailing       </h2>
+
+<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/sailing">UK  /ˈseɪ.lɪŋ/</a></p>
+
+<p class="notice--warning">the sport or activity of using boats with sails</p>
+<p><code class="language-plaintext highlighter-rouge">She loves to go sailing.</code></p>
+
+<!---------------------------------------------------------->
+
+<h2 id="3hockey-">3.hockey       </h2>
+
+<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/hockey">UK  /ˈhɒk.i/</a></p>
+
+<p class="notice--warning">a game played on a sports field between two teams of eleven players who each have a curved stick with which they try to put a small, hard ball into the other team’s goal</p>
+<p><code class="language-plaintext highlighter-rouge">I didn't know you played hockey - what position do you play?</code></p>
+
+<!---------------------------------------------------------->
+
+<h2 id="4skiing-">4.skiing       </h2>
+
+<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/skiing">UK  /ˈskiː.ɪŋ/</a></p>
+
+<p class="notice--warning">the activity or sport of moving on skis</p>
+<p><code class="language-plaintext highlighter-rouge">a skiing trip/instructor</code></p>
+
+<!---------------------------------------------------------->
+
+<h2 id="5snowboard-">5.snowboard       </h2>
+
+<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/snowboard">UK  /ˈsnəʊ.bɔːd/</a></p>
+
+<p class="notice--warning">to slide on the snow by standing on a specially shaped board</p>
+<p><code class="language-plaintext highlighter-rouge">I'm learning to snowboard at the moment.</code></p>
+
+<!---------------------------------------------------------->]]></content><author><name>AniPotato</name></author><category term="Vocabulary List A2" /><category term="Vocabulary List A2" /><summary type="html"><![CDATA[2023/01/31 A2 Key Vocabulary List]]></summary></entry><entry><title type="html">WorkOut Record</title><link href="http://0.0.0.0:4000/workout/1%E6%9C%88Workout/" rel="alternate" type="text/html" title="WorkOut Record" /><published>2023-01-08T00:00:00+08:00</published><updated>2023-01-08T00:00:00+08:00</updated><id>http://0.0.0.0:4000/workout/1%E6%9C%88Workout</id><content type="html" xml:base="http://0.0.0.0:4000/workout/1%E6%9C%88Workout/"><![CDATA[<h2 id="202301-健身組數紀錄">2023/01 健身組數紀錄</h2>
 
 <table>
   <thead>
@@ -69,7 +461,7 @@
       <td style="text-align: center"> </td>
     </tr>
   </tbody>
-</table>]]></content><author><name>AniPotato</name></author><category term="WorkOut" /><category term="WorkOut" /><summary type="html"><![CDATA[2023/01 健身組數紀錄]]></summary></entry><entry><title type="html">comb stadium cheque receipt recast</title><link href="http://0.0.0.0:4000/vocabulary%20list%20a2/English-Word1223/" rel="alternate" type="text/html" title="comb stadium cheque receipt recast" /><published>2022-12-23T00:00:00+08:00</published><updated>2022-12-23T00:00:00+08:00</updated><id>http://0.0.0.0:4000/vocabulary%20list%20a2/English%20Word1223</id><content type="html" xml:base="http://0.0.0.0:4000/vocabulary%20list%20a2/English-Word1223/"><![CDATA[<h2 id="a2-key-vocabulary-list">A2 Key Vocabulary List</h2>
+</table>]]></content><author><name>AniPotato</name></author><category term="WorkOut" /><category term="WorkOut" /><summary type="html"><![CDATA[2023/01 健身組數紀錄]]></summary></entry><entry><title type="html">comb stadium cheque receipt recast</title><link href="http://0.0.0.0:4000/vocabulary%20list%20a2/English-Word1223/" rel="alternate" type="text/html" title="comb stadium cheque receipt recast" /><published>2022-12-23T00:00:00+08:00</published><updated>2022-12-23T00:00:00+08:00</updated><id>http://0.0.0.0:4000/vocabulary%20list%20a2/English%20Word1223</id><content type="html" xml:base="http://0.0.0.0:4000/vocabulary%20list%20a2/English-Word1223/"><![CDATA[<h2 id="20221223-a2-key-vocabulary-list">2022/12/23 A2 Key Vocabulary List</h2>
 
 <h6 id="20221223">2022/12/23</h6>
 <h2 id="1comb-">1.comb       </h2>
@@ -114,7 +506,7 @@
 <p class="notice--warning">to change the form of something, or to change an actor in a play or film</p>
 <p><code class="language-plaintext highlighter-rouge">In despair, the theatre director recast the leading role.</code></p>
 
-<!---------------------------------------------------------->]]></content><author><name>AniPotato</name></author><category term="Vocabulary List A2" /><category term="Vocabulary List A2" /><summary type="html"><![CDATA[A2 Key Vocabulary List]]></summary></entry><entry><title type="html">towel pleasant brilliant clever pharmacy</title><link href="http://0.0.0.0:4000/vocabulary%20list%20a2/English-Word1222/" rel="alternate" type="text/html" title="towel pleasant brilliant clever pharmacy" /><published>2022-12-22T00:00:00+08:00</published><updated>2022-12-22T00:00:00+08:00</updated><id>http://0.0.0.0:4000/vocabulary%20list%20a2/English%20Word1222</id><content type="html" xml:base="http://0.0.0.0:4000/vocabulary%20list%20a2/English-Word1222/"><![CDATA[<h2 id="a2-key-vocabulary-list">A2 Key Vocabulary List</h2>
+<!---------------------------------------------------------->]]></content><author><name>AniPotato</name></author><category term="Vocabulary List A2" /><category term="Vocabulary List A2" /><summary type="html"><![CDATA[2022/12/23 A2 Key Vocabulary List]]></summary></entry><entry><title type="html">towel pleasant brilliant clever pharmacy</title><link href="http://0.0.0.0:4000/vocabulary%20list%20a2/English-Word1222/" rel="alternate" type="text/html" title="towel pleasant brilliant clever pharmacy" /><published>2022-12-22T00:00:00+08:00</published><updated>2022-12-22T00:00:00+08:00</updated><id>http://0.0.0.0:4000/vocabulary%20list%20a2/English%20Word1222</id><content type="html" xml:base="http://0.0.0.0:4000/vocabulary%20list%20a2/English-Word1222/"><![CDATA[<h2 id="20221222-a2-key-vocabulary-list">2022/12/22 A2 Key Vocabulary List</h2>
 
 <h6 id="20221222">2022/12/22</h6>
 <h2 id="1towel-">1.towel       </h2>
@@ -159,334 +551,4 @@
 <p class="notice--warning">a shop or part of a shop in which medicines are prepared and sold</p>
 <p><code class="language-plaintext highlighter-rouge">The cream is available at pharmacies without a prescription.</code></p>
 
-<!---------------------------------------------------------->]]></content><author><name>AniPotato</name></author><category term="Vocabulary List A2" /><category term="Vocabulary List A2" /><summary type="html"><![CDATA[A2 Key Vocabulary List]]></summary></entry><entry><title type="html">furniture pillow curtain blanket bookcase</title><link href="http://0.0.0.0:4000/vocabulary%20list%20a2/English-Word1220/" rel="alternate" type="text/html" title="furniture pillow curtain blanket bookcase" /><published>2022-12-20T00:00:00+08:00</published><updated>2022-12-20T00:00:00+08:00</updated><id>http://0.0.0.0:4000/vocabulary%20list%20a2/English%20Word1220</id><content type="html" xml:base="http://0.0.0.0:4000/vocabulary%20list%20a2/English-Word1220/"><![CDATA[<h2 id="a2-key-vocabulary-list">A2 Key Vocabulary List</h2>
-
-<h6 id="20221220">2022/12/20</h6>
-<h2 id="1furniture-">1.furniture       </h2>
-<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/furniture">UK  /ˈfɜː.nɪ.tʃər/</a></p>
-
-<p class="notice--warning">things such as chairs, tables, beds, cupboards</p>
-<p><code class="language-plaintext highlighter-rouge">They have a lot of antique furniture.</code></p>
-
-<!---------------------------------------------------------->
-
-<h2 id="2pillow-">2.pillow       </h2>
-
-<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/pillow">UK  /ˈpɪl.əʊ/</a></p>
-
-<p class="notice--warning">a rectangular cloth bag filled with soft material, such as feathers or artificial materials, used for resting your head on in bed</p>
-<p><code class="language-plaintext highlighter-rouge">Do you prefer a feather pillow or a foam pillow?</code></p>
-
-<!---------------------------------------------------------->
-
-<h2 id="3curtain-">3.curtain       </h2>
-
-<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/curtain">UK  /ˈkɜː.tən</a></p>
-
-<p class="notice--warning">a piece of material, especially cloth, that hangs across a window or opening to make a room or part of a room dark or private</p>
-<p><code class="language-plaintext highlighter-rouge">The audience was still laughing as the curtain fell.</code></p>
-
-<!---------------------------------------------------------->
-
-<h2 id="4blanket-">4.blanket       </h2>
-
-<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/blanket">UK  /ˈblæŋ.kɪt/</a></p>
-
-<ol>
-  <li>a flat cover made of wool or similar warm material, usually used on a bed</li>
-</ol>
-
-<p><code class="language-plaintext highlighter-rouge">She shivered, and gathered the blanket around her.</code></p>
-
-<ol>
-  <li>including or affecting everything, everyone, or all cases, in a large group or area</li>
-</ol>
-
-<p><code class="language-plaintext highlighter-rouge">"Man", as a blanket term for both men and women, is now considered sexist.</code></p>
-
-<ol>
-  <li>to cover something completely with a thick layer</li>
-</ol>
-
-<!-- {: .notice--warning} -->
-<p><code class="language-plaintext highlighter-rouge">Outside the fields were blanketed in fog.</code></p>
-
-<!---------------------------------------------------------->
-
-<h2 id="5bookcase-">5.bookcase       </h2>
-
-<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/bookcase">UK  /ˈbʊk.keɪs/</a></p>
-
-<p class="notice--warning">a piece of furniture with shelves to put books on</p>
-<p><code class="language-plaintext highlighter-rouge">When the robot arrives in front of the bookcase that should contain the book, it does not know the exact position of the book.</code></p>
-
-<!---------------------------------------------------------->]]></content><author><name>AniPotato</name></author><category term="Vocabulary List A2" /><category term="Vocabulary List A2" /><summary type="html"><![CDATA[A2 Key Vocabulary List]]></summary></entry><entry><title type="html">appointment dentist musician camping tent</title><link href="http://0.0.0.0:4000/vocabulary%20list%20a2/English-Word1218/" rel="alternate" type="text/html" title="appointment dentist musician camping tent" /><published>2022-12-18T00:00:00+08:00</published><updated>2022-12-18T00:00:00+08:00</updated><id>http://0.0.0.0:4000/vocabulary%20list%20a2/English%20Word1218</id><content type="html" xml:base="http://0.0.0.0:4000/vocabulary%20list%20a2/English-Word1218/"><![CDATA[<h2 id="a2-key-vocabulary-list">A2 Key Vocabulary List</h2>
-
-<h6 id="20221218">2022/12/18</h6>
-<h2 id="1appointment-">1.appointment       </h2>
-<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/appointment">UK  /əˈpɔɪnt.mənt/</a></p>
-
-<p class="notice--warning">a formal arrangement to meet or visit someone at a particular time and place</p>
-<p><code class="language-plaintext highlighter-rouge">I'd like to make an appointment with Dr Evans, please.</code></p>
-
-<!---------------------------------------------------------->
-
-<h2 id="2dentist-">2.dentist       </h2>
-
-<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/dentist">UK  /ˈden.tɪst/</a></p>
-
-<p class="notice--warning">a person whose job is treating people’s teeth</p>
-<p><code class="language-plaintext highlighter-rouge">You should have your teeth checked by a dentist at least twice a year.</code></p>
-
-<!---------------------------------------------------------->
-
-<h2 id="3musician-">3.musician       </h2>
-
-<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/musician">UK  /mjuːˈzɪʃ.ən</a></p>
-
-<p class="notice--warning">someone who is skilled in playing music, usually as a job</p>
-<p><code class="language-plaintext highlighter-rouge">The concert features dancers and musicians of all nationalities.</code></p>
-
-<!---------------------------------------------------------->
-
-<h2 id="4camping-">4.camping       </h2>
-
-<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/camping">UK  /ˈkæm.pɪŋ/</a></p>
-
-<p class="notice--warning">the activity of staying in a tent on holiday</p>
-<p><code class="language-plaintext highlighter-rouge">We used to go camping in Spain when I was a child.</code></p>
-
-<!---------------------------------------------------------->
-
-<h2 id="5tent-">5.tent       </h2>
-
-<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/tent">UK  /tent/</a></p>
-
-<p class="notice--warning">a shelter made of canvas or a similar material and supported by poles and ropes, that you can fold up and carry with you</p>
-<p><code class="language-plaintext highlighter-rouge">Rain had dampened the tent so we left it to dry in the afternoon sun.</code></p>
-
-<!---------------------------------------------------------->]]></content><author><name>AniPotato</name></author><category term="Vocabulary List A2" /><category term="Vocabulary List A2" /><summary type="html"><![CDATA[A2 Key Vocabulary List]]></summary></entry><entry><title type="html">lemonade melon omelette cereal ambulance</title><link href="http://0.0.0.0:4000/vocabulary%20list%20a2/English-Word1214/" rel="alternate" type="text/html" title="lemonade melon omelette cereal ambulance" /><published>2022-12-14T00:00:00+08:00</published><updated>2022-12-14T00:00:00+08:00</updated><id>http://0.0.0.0:4000/vocabulary%20list%20a2/English%20Word1214</id><content type="html" xml:base="http://0.0.0.0:4000/vocabulary%20list%20a2/English-Word1214/"><![CDATA[<h2 id="a2-key-vocabulary-list">A2 Key Vocabulary List</h2>
-
-<h6 id="20221214">2022/12/14</h6>
-<h2 id="1lemonade-">1.lemonade       </h2>
-<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/lemonade">UK  /ˌlem.əˈneɪd/</a></p>
-
-<p class="notice--warning">a drink made with the juice of lemons, water, and sugar</p>
-<p><code class="language-plaintext highlighter-rouge">Bottles of lemonade doctored with rat poison were discovered in the kitchen.</code> 
-<!----------------------------------------------------------></p>
-<h2 id="2melon-">2.melon       </h2>
-
-<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/melon">UK  /ˈmel.ən/</a></p>
-
-<p class="notice--warning">a large, round fruit with hard yellow or green skin, sweet flesh, and a lot of seeds</p>
-<p><code class="language-plaintext highlighter-rouge">Treatment of melon flesh with food-safe sanitizers also does not eliminate bacteria.</code> 
-<!----------------------------------------------------------></p>
-<h2 id="3omelette-">3.omelette       </h2>
-
-<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/omelette">UK  /ˈɒm.lət/</a></p>
-
-<p class="notice--warning">a dish made by mixing eggs together and frying them, often with small pieces of other food such as cheese or vegetables</p>
-<p><code class="language-plaintext highlighter-rouge">To make an omelette you must first beat the eggs.</code> 
-<!----------------------------------------------------------></p>
-<h2 id="4cereal-">4.cereal       </h2>
-
-<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/cereal">UK  /ˈsɪə.ri.əl/</a></p>
-
-<p class="notice--warning">a plant that is grown to produce grain</p>
-<p><code class="language-plaintext highlighter-rouge">I hate it when cereal goes all soggy, so I try to eat it up quickly.</code> 
-<!----------------------------------------------------------></p>
-<h2 id="5ambulance-">5.ambulance       </h2>
-
-<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/ambulance">UK  /ˈæm.bjə.ləns/</a></p>
-
-<p class="notice--warning">a special vehicle used to take sick or injured people to hospital</p>
-<p><code class="language-plaintext highlighter-rouge">We were woken in the night by the wail of ambulance sirens.</code> 
-<!----------------------------------------------------------></p>]]></content><author><name>AniPotato</name></author><category term="Vocabulary List A2" /><category term="Vocabulary List A2" /><summary type="html"><![CDATA[A2 Key Vocabulary List]]></summary></entry><entry><title type="html">clever rubber advertisement surname biscuit</title><link href="http://0.0.0.0:4000/vocabulary%20list%20a2/English-Word1213/" rel="alternate" type="text/html" title="clever rubber advertisement surname biscuit" /><published>2022-12-13T00:00:00+08:00</published><updated>2022-12-13T00:00:00+08:00</updated><id>http://0.0.0.0:4000/vocabulary%20list%20a2/English%20Word1213</id><content type="html" xml:base="http://0.0.0.0:4000/vocabulary%20list%20a2/English-Word1213/"><![CDATA[<h2 id="a2-key-vocabulary-list">A2 Key Vocabulary List</h2>
-
-<h6 id="20221213">2022/12/13</h6>
-<h2 id="1clever-">1.clever       </h2>
-<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/clever">UK  /ˈklev.ər/</a></p>
-
-<p class="notice--warning">having or showing the ability to learn and understand things quickly and easily</p>
-<p><code class="language-plaintext highlighter-rouge">Judy has never been very clever, but she tries hard.</code> 
-<!----------------------------------------------------------></p>
-<h2 id="2rubber-">2.rubber       </h2>
-
-<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/rubber">UK  /ˈrʌb.ər/</a></p>
-
-<p class="notice--warning">an elastic substance (= that stretches) made either from the juice of particular tropical trees or artificially</p>
-<p><code class="language-plaintext highlighter-rouge">Tyres are almost always made of rubber.</code> 
-<!----------------------------------------------------------></p>
-<h2 id="3advertisement-">3.advertisement       </h2>
-
-<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/advertisement">UK  /ədˈvɜː.tɪs.mənt/</a></p>
-
-<p class="notice--warning">a picture, short film, song, etc. that tries to persuade people to buy a product or service, or a piece of text that tells people about a job, etc.</p>
-<p><code class="language-plaintext highlighter-rouge">She scanned the job/property advertisements in the paper.</code> 
-<!----------------------------------------------------------></p>
-<h2 id="4surname-">4.surname       </h2>
-
-<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/surname">UK  /ˈsɜː.neɪm/</a></p>
-
-<p class="notice--warning">the name that you share with other members of your family; last name</p>
-<p><code class="language-plaintext highlighter-rouge">Her first name is Sarah but I don't know her surname.</code> 
-<!----------------------------------------------------------></p>
-<h2 id="5biscuit-">5.biscuit       </h2>
-
-<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/biscuit">UK  /ˈbɪs.kɪt/</a></p>
-
-<p class="notice--warning">a small, flat cake that is dry and usually sweet</p>
-<p><code class="language-plaintext highlighter-rouge">We had tea and biscuits at half past there.</code> 
-<!----------------------------------------------------------></p>]]></content><author><name>AniPotato</name></author><category term="Vocabulary List A2" /><category term="Vocabulary List A2" /><summary type="html"><![CDATA[A2 Key Vocabulary List]]></summary></entry><entry><title type="html">pale envelope magazine diploma bookshelf</title><link href="http://0.0.0.0:4000/vocabulary%20list%20a2/English-Word1212/" rel="alternate" type="text/html" title="pale envelope magazine diploma bookshelf" /><published>2022-12-12T00:00:00+08:00</published><updated>2022-12-12T00:00:00+08:00</updated><id>http://0.0.0.0:4000/vocabulary%20list%20a2/English%20Word1212</id><content type="html" xml:base="http://0.0.0.0:4000/vocabulary%20list%20a2/English-Word1212/"><![CDATA[<h2 id="a2-key-vocabulary-list">A2 Key Vocabulary List</h2>
-
-<h6 id="20221212">2022/12/12</h6>
-<h2 id="1pale-">1.pale       </h2>
-<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/pale">UK  /peɪl/</a></p>
-
-<p class="notice--warning">used to describe a person’s face or skin if it has less colour than usual</p>
-<p><code class="language-plaintext highlighter-rouge">You're looking pale - are you feeling well?</code></p>
-<h2 id="2envelope-">2.envelope       </h2>
-
-<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/envelope">UK  /ˈen.və.ləʊp/</a></p>
-
-<p class="notice--warning">a flat, usually square or rectangular, paper container for a letter</p>
-<p><code class="language-plaintext highlighter-rouge">I folded the letter in half and put it in an envelope.</code></p>
-<h2 id="3magazine-">3.magazine       </h2>
-
-<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/magazine">UK  /ˌmæɡ.əˈziːn/</a></p>
-
-<p class="notice--warning">a type of thin book with large pages and a paper cover that contains articles and photographs and is published every week or month</p>
-<p><code class="language-plaintext highlighter-rouge">She has written articles for several women's magazines.</code></p>
-<h2 id="4diploma-">4.diploma       </h2>
-
-<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/diploma">UK  /dɪˈpləʊ.mə/</a></p>
-
-<p class="notice--warning">a document given by a college or university to show that you have passed a particular exam or finished your studies</p>
-<p><code class="language-plaintext highlighter-rouge">She is talking a diploma in management studies.</code></p>
-<h2 id="5bookshelf-">5.bookshelf       </h2>
-
-<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/bookshelf">UK  /ˈtraʊ.zəz/</a></p>
-
-<p class="notice--warning">a shelf in a bookcase</p>
-<p><code class="language-plaintext highlighter-rouge">All those who consider themselves scientists should have a set on their own bookshelf for reference purposes.</code></p>]]></content><author><name>AniPotato</name></author><category term="Vocabulary List A2" /><category term="Vocabulary List A2" /><summary type="html"><![CDATA[A2 Key Vocabulary List]]></summary></entry><entry><title type="html">traffic bathing suit fridge tights trousers</title><link href="http://0.0.0.0:4000/vocabulary%20list%20a2/English-Word1211/" rel="alternate" type="text/html" title="traffic bathing suit fridge tights trousers" /><published>2022-12-11T00:00:00+08:00</published><updated>2022-12-11T00:00:00+08:00</updated><id>http://0.0.0.0:4000/vocabulary%20list%20a2/English%20Word1211</id><content type="html" xml:base="http://0.0.0.0:4000/vocabulary%20list%20a2/English-Word1211/"><![CDATA[<h2 id="a2-key-vocabulary-list">A2 Key Vocabulary List</h2>
-
-<h6 id="20221211">2022/12/11</h6>
-<h2 id="1traffic-">1.traffic       </h2>
-<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/traffic">UK  /ˈtræf.ɪk/</a></p>
-
-<p class="notice--warning">the number of vehicles moving along roads, or the amount of aircraft, trains, or ships moving along a route.</p>
-<p><code class="language-plaintext highlighter-rouge">We got stuck in traffic for several hours.</code></p>
-<h2 id="2bathing-suit-">2.bathing suit       </h2>
-
-<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/bathing-suit">UK  /ˈbeɪ.ðɪŋ ˌsuːt/</a></p>
-
-<p class="notice--warning">a piece of clothing that you wear for swimming</p>
-<p><code class="language-plaintext highlighter-rouge">She donned her bathing suit and headed for the pool.</code></p>
-<h2 id="3fridge-">3.fridge       </h2>
-
-<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/fridge">UK  /frɪdʒ/</a></p>
-
-<p class="notice--warning">a piece of kitchen equipment that uses electricity to preserve food at a cold temperature</p>
-<p><code class="language-plaintext highlighter-rouge">Don't forget to put the milk back in the fridge.</code></p>
-<h2 id="4tights-">4.tights       </h2>
-
-<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/tights">UK  /taɪts/</a></p>
-
-<p class="notice--warning">a piece of clothing made of very thin material that tightly covers the feet, legs, and lower part of the body below the waist, often worn under skirts and dresses</p>
-<p><code class="language-plaintext highlighter-rouge">She bought a new pair of tights.</code></p>
-<h2 id="5trousers-">5.trousers       </h2>
-
-<p><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/trousers">UK  /ˈtraʊ.zəz/</a></p>
-
-<p class="notice--warning">a piece of clothing that covers the lower part of the body from the waist to the feet, consisting of two cylinder-shaped parts, one for each leg, that are joined at the top</p>
-<p><code class="language-plaintext highlighter-rouge">I need a new pair of trousers to go with this jacket.</code></p>]]></content><author><name>AniPotato</name></author><category term="Vocabulary List A2" /><category term="Vocabulary List A2" /><summary type="html"><![CDATA[A2 Key Vocabulary List]]></summary></entry><entry><title type="html">5 years target</title><link href="http://0.0.0.0:4000/goal/Target/" rel="alternate" type="text/html" title="5 years target" /><published>2022-10-19T00:00:00+08:00</published><updated>2022-10-19T00:00:00+08:00</updated><id>http://0.0.0.0:4000/goal/Target</id><content type="html" xml:base="http://0.0.0.0:4000/goal/Target/"><![CDATA[<h2 id="pointer-introduce">Pointer Introduce</h2>
-
-<h4 id="data-variable">Data variable</h4>
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>int a = 10;
-</code></pre></div></div>
-<h4 id="address-variable">Address variable</h4>
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>int <span class="err">*</span>p;
-p = <span class="ni">&amp;a;</span>
-</code></pre></div></div>
-<p>create a memory space</p>
-<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
-<span class="p">{</span>
-    <span class="kt">int</span> <span class="o">*</span><span class="n">p</span><span class="p">;</span>
-<span class="c1">//*C</span>
-    <span class="n">p</span><span class="o">=</span><span class="p">(</span><span class="kt">int</span><span class="o">*</span><span class="p">)</span><span class="n">malloc</span><span class="p">(</span><span class="n">S</span><span class="o">*</span><span class="k">sizeof</span><span class="p">(</span><span class="kt">int</span><span class="p">));</span>
-<span class="c1">//*C++</span>
-    <span class="n">p</span><span class="o">=</span><span class="k">new</span> <span class="kt">int</span><span class="p">[</span><span class="n">S</span><span class="p">];</span>
-<span class="p">}</span>
-</code></pre></div></div>
-
-<h2 id="reference-introduce">Reference Introduce</h2>
-<p>Another alias.</p>
-<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
-<span class="p">{</span>
-    <span class="kt">int</span> <span class="n">a</span><span class="o">=</span><span class="mi">10</span><span class="p">;</span>
-    <span class="kt">int</span> <span class="o">&amp;</span><span class="n">r</span><span class="o">=</span><span class="n">a</span><span class="p">;</span>
-
-    <span class="kt">int</span> <span class="n">b</span><span class="o">=</span><span class="mi">30</span><span class="p">;</span>
-    <span class="n">r</span><span class="o">=</span><span class="n">b</span><span class="p">;</span>
-    <span class="n">cout</span><span class="o">&lt;&lt;</span> <span class="n">a</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span> <span class="o">&lt;&lt;</span> <span class="n">r</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div></div>
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Ans
-30
-30
-</code></pre></div></div>
-
-<h2 id="pointer-to-a-structure">Pointer to a Structure</h2>
-<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">struct</span> <span class="nc">Rectangle</span>
-<span class="p">{</span>
-    <span class="kt">int</span> <span class="n">length</span><span class="p">;</span>
-    <span class="kt">int</span> <span class="n">breadth</span><span class="p">;</span>
-<span class="p">}</span>
-<span class="kt">int</span> <span class="n">main</span><span class="p">()</span>
-<span class="p">{</span>
-    <span class="k">struct</span> <span class="nc">Rectangle</span> <span class="n">r</span><span class="o">=</span><span class="p">{</span><span class="mi">10</span><span class="p">,</span><span class="mi">5</span><span class="p">};</span>
-    <span class="k">struct</span> <span class="nc">Rectangle</span> <span class="o">*</span><span class="n">p</span> <span class="o">=</span> <span class="o">&amp;</span><span class="n">r</span><span class="p">;</span>
-    
-    <span class="n">r</span><span class="p">.</span><span class="n">length</span><span class="o">=</span><span class="mi">15</span><span class="p">;</span>
-    <span class="c1">//This is wrong because the higher precedence is for DOT operators.</span>
-    <span class="o">*</span><span class="n">p</span><span class="p">.</span><span class="n">length</span><span class="o">=</span><span class="mi">20</span><span class="p">;</span>
-    <span class="c1">///the following codes are right.</span>
-    <span class="p">(</span><span class="o">*</span><span class="n">p</span><span class="p">).</span><span class="n">length</span><span class="o">=</span><span class="mi">20</span><span class="p">;</span>
-    <span class="n">p</span><span class="o">-&gt;</span><span class="n">length</span><span class="o">=</span><span class="mi">20</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="kt">int</span> <span class="n">Assign</span><span class="p">()</span>
-<span class="p">{</span>
-    <span class="c1">//in the heap memory</span>
-    <span class="k">struct</span> <span class="nc">Rectangle</span> <span class="o">*</span><span class="n">p</span><span class="p">;</span>
-    <span class="c1">//type casting (struct Rectangle*)</span>
-    <span class="n">p</span><span class="o">=</span><span class="p">(</span><span class="k">struct</span> <span class="nc">Rectangle</span><span class="o">*</span><span class="p">)</span><span class="n">malloc</span><span class="p">(</span><span class="k">sizeof</span><span class="p">(</span><span class="k">struct</span> <span class="nc">Rectangle</span><span class="p">));</span>
-    <span class="n">p</span><span class="o">-&gt;</span><span class="n">length</span><span class="o">=</span><span class="mi">20</span><span class="p">;</span>
-    <span class="n">p</span><span class="o">-&gt;</span><span class="n">breadth</span><span class="o">=</span><span class="mi">20</span><span class="p">;</span>
-<span class="p">}</span>
-
-</code></pre></div></div>
-
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Pointers</span>
-<span class="na">foo</span><span class="pi">:</span>
-  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Link</span><span class="nv"> </span><span class="s">1</span><span class="nv"> </span><span class="s">Title"</span>
-    <span class="na">url</span><span class="pi">:</span> <span class="s">/link-1-page-url/</span>
-
-  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Link</span><span class="nv"> </span><span class="s">2</span><span class="nv"> </span><span class="s">Title"</span>
-    <span class="na">url</span><span class="pi">:</span> <span class="s">http://external-link.com</span>
-
-  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Link</span><span class="nv"> </span><span class="s">3</span><span class="nv"> </span><span class="s">Title"</span>
-    <span class="na">url</span><span class="pi">:</span> <span class="s">/link-3-page-url/</span>
-
-  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Link</span><span class="nv"> </span><span class="s">4</span><span class="nv"> </span><span class="s">Title"</span>
-    <span class="na">url</span><span class="pi">:</span> <span class="s">/link-4-page-url/</span>
-</code></pre></div></div>
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">![</span><span class="nv">image-center</span><span class="p">](</span><span class="sx">/assets/images/filename.jpg</span><span class="p">)</span>{: .align-center}
-</code></pre></div></div>
-<p class="notice--warning"><strong>Note:</strong> for technical reasons, <code class="language-plaintext highlighter-rouge">_config.yml</code> is NOT reloaded automatically when used with <code class="language-plaintext highlighter-rouge">jekyll serve</code>. If you make any changes to this file, please restart the server process for them to be applied.</p>
-
-<p>Take a moment to look over the configuration file included with the theme. Comments have been added to provide examples and default values for most settings. Detailed explanations of each can be found below.</p>
-
-<h2 id="site-settings">Site settings</h2>
-
-<h3 id="theme">Theme</h3>]]></content><author><name>AniPotato</name></author><category term="goal" /><category term="goal" /><summary type="html"><![CDATA[Pointer Introduce]]></summary></entry></feed>
+<!---------------------------------------------------------->]]></content><author><name>AniPotato</name></author><category term="Vocabulary List A2" /><category term="Vocabulary List A2" /><summary type="html"><![CDATA[2022/12/22 A2 Key Vocabulary List]]></summary></entry></feed>
