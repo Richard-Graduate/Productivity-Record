@@ -8,7 +8,7 @@ tags:
 ## 2023/02/09 Conversation 
 
 ###### 2023/02/09
-## 1.secretary &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     
+## ordering food;     
 
 https://www.youtube.com/watch?v=lEF7tkTn1YE
 

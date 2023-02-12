@@ -185,6 +185,10 @@
 <lastmod>2023-02-09T00:00:00+08:00</lastmod>
 </url>
 <url>
+<loc>http://0.0.0.0:4000/conversation/English-Effortless/</loc>
+<lastmod>2023-02-12T00:00:00+08:00</lastmod>
+</url>
+<url>
 <loc>http://0.0.0.0:4000/about/</loc>
 <lastmod>2022-05-27T23:59:26+08:00</lastmod>
 </url>
@@ -263,5 +267,8 @@
 </url>
 <url>
 <loc>http://0.0.0.0:4000/page5/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/page6/</loc>
 </url>
 </urlset>

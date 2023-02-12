@@ -264,7 +264,7 @@ var store = [{
         "teaser": null
       },{
         "title": "ordering food",
-        "excerpt":"2023/02/09 Conversation 2023/02/09 1.secretary        https://www.youtube.com/watch?v=lEF7tkTn1YE Good evening are you ready to order? sure Would you like to start with an appetizer? Yes.I want a salad. What kind of salad do you have? We have fruit salad,caesar salad with chicken and green salad.What do you want? Is there oil on...","categories": ["Conversation"],
+        "excerpt":"2023/02/09 Conversation 2023/02/09 ordering food; https://www.youtube.com/watch?v=lEF7tkTn1YE Good evening are you ready to order? sure Would you like to start with an appetizer? Yes.I want a salad. What kind of salad do you have? We have fruit salad,caesar salad with chicken and green salad.What do you want? Is there oil on...","categories": ["Conversation"],
         "tags": ["Conversation"],
         "url": "/conversation/English-Conversation/",
         "teaser": null
@@ -273,5 +273,11 @@ var store = [{
         "excerpt":"2023/02/08 A2 Key Vocabulary List 2023/02/09 1.secretary        US /ˈsek.rə.ter.i/ someone who works in an office, writing letters, making phone calls, and arranging meetings for a person or for an organization Their conversations were taken down in shorthand by a secretary. 2.instruction        US /ɪnˈstrʌk.ʃən/ something that someone tells you...","categories": ["Vocabulary List A2"],
         "tags": ["Vocabulary List A2"],
         "url": "/vocabulary%20list%20a2/English-Word0209/",
+        "teaser": null
+      },{
+        "title": "Effortless English",
+        "excerpt":"2023/02/12 The Seven rule of Effortless english 2023/02/09 1. Stop studying English words. Native speakers do not learn English by remembering single words. Native speakers learn phrases. Phrases are GROUPS of words that naturally go together. RULE 1: Always Study and Review Phrases, Not Individual Words Never study a single,...","categories": ["Conversation"],
+        "tags": ["Conversation"],
+        "url": "/conversation/English-Effortless/",
         "teaser": null
       },]
