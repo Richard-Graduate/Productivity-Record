@@ -270,7 +270,7 @@ var store = [{
         "teaser": null
       },{
         "title": "mechanic roundabout motorway thunderstorm journalist",
-        "excerpt":"2023/02/08 A2 Key Vocabulary List 2023/02/09 1.secretary        US /ˈsek.rə.ter.i/ someone who works in an office, writing letters, making phone calls, and arranging meetings for a person or for an organization Their conversations were taken down in shorthand by a secretary. 2.instruction        US /ɪnˈstrʌk.ʃən/ something that someone tells you...","categories": ["Vocabulary List A2"],
+        "excerpt":"2023/02/09 A2 Key Vocabulary List 2023/02/09 1.secretary        US /ˈsek.rə.ter.i/ someone who works in an office, writing letters, making phone calls, and arranging meetings for a person or for an organization Their conversations were taken down in shorthand by a secretary. 2.instruction        US /ɪnˈstrʌk.ʃən/ something that someone tells you...","categories": ["Vocabulary List A2"],
         "tags": ["Vocabulary List A2"],
         "url": "/vocabulary%20list%20a2/English-Word0209/",
         "teaser": null
@@ -279,5 +279,29 @@ var store = [{
         "excerpt":"2023/02/12 The Seven rule of Effortless english 2023/02/09 1. Stop studying English words. Native speakers do not learn English by remembering single words. Native speakers learn phrases. Phrases are GROUPS of words that naturally go together. RULE 1: Always Study and Review Phrases, Not Individual Words Never study a single,...","categories": ["Conversation"],
         "tags": ["Conversation"],
         "url": "/conversation/English-Effortless/",
+        "teaser": null
+      },{
+        "title": "curious sombre cemetery backpack accessory",
+        "excerpt":"2023/02/13 B1 Key Vocabulary List 2023/02/13 1.curious        US /ˈkjʊə.ri.əs/ interested in learning about people or things around you I was curious to know what would happen next. 2.sombre        US /ˈsɒm.bər/ serious, sad, and without humour or entertainment She remembered Ann's instruction not to be late. I left them...","categories": ["Vocabulary List B1"],
+        "tags": ["Vocabulary List B1"],
+        "url": "/vocabulary%20list%20b1/English-Word0213/",
+        "teaser": null
+      },{
+        "title": "genre sombre cemetery backpack accessory",
+        "excerpt":"2023/02/27 B1 Key Vocabulary List 2023/02/27 1.genre        US /ˈʒɑ̃ː.rə/ a style, especially in the arts, that involves a particular set of characteristics What genre does the book fall into - comedy or tragedy? 2.immune        US /ɪˈmjuːn/ protected against a particular disease by particular substances in the blood He...","categories": ["Vocabulary List B1"],
+        "tags": ["Vocabulary List B1"],
+        "url": "/vocabulary%20list%20b1/English-Word0227/",
+        "teaser": null
+      },{
+        "title": "English Tutorial with Aleksandar",
+        "excerpt":"2023/03/17 Conversation 2023/03/17 English Tutorial with Aleksandar; Here are some words or phrases you can use to indicate agreement: “Yes, I agree.” “That’s right.” “Exactly.” “I couldn’t agree more.” “You’re absolutely right.” “I see your point.” “I’m with you on this.” “That makes sense to me.” “I’m in complete agreement.”...","categories": ["Conversation"],
+        "tags": ["Conversation"],
+        "url": "/conversation/English-tutorial/",
+        "teaser": null
+      },{
+        "title": "genre sombre cemetery backpack accessory",
+        "excerpt":"2023/03/18 B1 Key Vocabulary List 2023/03/18 1.exempt        US /ɪɡˈzempt/ to excuse someone or something from a duty, payment, etc. Employees who earn less than $23,660 per year are exempt from overtime pay requirements under the Fair Labor Standards Act. 2.salmon        US /ˈsæm.ən/ a medium-sized silver-coloured fish that lives...","categories": ["Vocabulary List B1"],
+        "tags": ["Vocabulary List B1"],
+        "url": "/vocabulary%20list%20b1/English-Word0318/",
         "teaser": null
       },]
